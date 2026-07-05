@@ -1,0 +1,1001 @@
+Deal_ID,Company,Owner,Product,Stage,Amount,Close_Date,Region,Notes
+OPP-1000,Databricks,Carol Smith,Enterprise Suite,Closed Lost,326521,2024-07-19,Europe,Highly satisfied customer
+OPP-1001,Twilio,Grace Taylor,Analytics Module,Discovery,381013,2024-05-13,North America,Fantastic collaboration
+OPP-1002,Salesforce,Emma Johnson,Security Add-on,Negotiation,72733,2024-05-25,Europe,"Excellent partnership, very happy with progress"
+OPP-1003,Twilio,David Kim,Analytics Module,Closed Lost,464780,2024-05-29,APAC,Amazing opportunity ahead
+OPP-1004,Datadog,Grace Taylor,Enterprise Suite,Closed Lost,248661,2024-01-31,APAC,"Great momentum, client excited"
+OPP-1005,Adobe,Alice Chen,Cloud Storage,Closed Lost,457685,2024-11-22,North America,Frustrated with timeline
+OPP-1006,Stripe,Henry Brown,Integration API,Proposal,298074,2024-03-23,LATAM,Outstanding results delivered
+OPP-1007,Confluent,Carol Smith,Analytics Module,Discovery,382805,2024-08-13,LATAM,Poor communication so far
+OPP-1008,Salesforce,Carol Smith,Mobile Platform,Negotiation,257501,2024-08-25,LATAM,Concerned about pricing
+OPP-1009,Salesforce,Bob Patel,Cloud Storage,Proposal,396190,2024-10-31,Europe,Concerned about pricing
+OPP-1010,Palantir,Grace Taylor,Mobile Platform,Proposal,384929,2024-09-07,LATAM,"Excellent partnership, very happy with progress"
+OPP-1011,Microsoft,Carol Smith,Enterprise Suite,Proposal,443978,2024-11-09,LATAM,"Struggling to close, client hesitant"
+OPP-1012,Confluent,Henry Brown,Starter Pack,Closed Lost,467848,2024-05-08,APAC,"Struggling to close, client hesitant"
+OPP-1013,Datadog,Bob Patel,Cloud Storage,Negotiation,443378,2024-03-05,LATAM,Amazing opportunity ahead
+OPP-1014,HubSpot,Carol Smith,Enterprise Suite,Qualification,342288,2024-10-19,APAC,Concerned about pricing
+OPP-1015,MongoDB,Alice Chen,Analytics Module,Closed Lost,324686,2024-02-20,Europe,Highly satisfied customer
+OPP-1016,ServiceNow,David Kim,Starter Pack,Closed Won,10200,2024-04-28,LATAM,Thrilled with the demo
+OPP-1017,Workday,Grace Taylor,Mobile Platform,Proposal,375123,2024-02-04,North America,Fantastic collaboration
+OPP-1018,ServiceNow,Alice Chen,Analytics Module,Discovery,122573,2024-12-13,APAC,Negative feedback received
+OPP-1019,Workday,David Kim,Cloud Storage,Qualification,149591,2024-03-27,North America,Strong interest shown
+OPP-1020,ServiceNow,Alice Chen,Mobile Platform,Closed Lost,100585,2024-02-10,Europe,Fantastic collaboration
+OPP-1021,SAP,Carol Smith,Analytics Module,Negotiation,183710,2024-02-27,LATAM,Strong interest shown
+OPP-1022,Zendesk,David Kim,Starter Pack,Closed Won,462569,2024-08-06,LATAM,Strong interest shown
+OPP-1023,Slack,Frank Liu,Cloud Storage,Negotiation,39406,2024-12-13,Europe,Poor communication so far
+OPP-1024,Datadog,Carol Smith,Security Add-on,Discovery,378558,2024-04-16,North America,"Excellent partnership, very happy with progress"
+OPP-1025,Microsoft,Henry Brown,Integration API,Qualification,489726,2024-05-27,APAC,Thrilled with the demo
+OPP-1026,Twilio,Grace Taylor,Starter Pack,Proposal,421344,2024-07-28,North America,Disappointed with delays
+OPP-1027,Zoom,Emma Johnson,Mobile Platform,Negotiation,181553,2024-08-14,Europe,"Excellent partnership, very happy with progress"
+OPP-1028,Elastic,Alice Chen,Enterprise Suite,Proposal,452145,2024-11-26,APAC,Amazing opportunity ahead
+OPP-1029,Confluent,Carol Smith,Security Add-on,Closed Lost,342418,2024-06-10,Europe,Outstanding results delivered
+OPP-1030,Confluent,Henry Brown,Starter Pack,Qualification,53725,2024-03-16,North America,Highly satisfied customer
+OPP-1031,Slack,David Kim,Cloud Storage,Negotiation,339893,2024-10-24,APAC,Thrilled with the demo
+OPP-1032,Elastic,Emma Johnson,Pro License,Qualification,392873,2024-08-14,Europe,Fantastic collaboration
+OPP-1033,SAP,Frank Liu,Starter Pack,Qualification,342150,2024-01-18,APAC,Concerned about pricing
+OPP-1034,Stripe,Bob Patel,Pro License,Negotiation,328501,2024-09-29,LATAM,Fantastic collaboration
+OPP-1035,SAP,Henry Brown,Starter Pack,Negotiation,194423,2024-10-08,Europe,Poor communication so far
+OPP-1036,Zoom,Carol Smith,Starter Pack,Negotiation,45829,2024-06-21,APAC,Thrilled with the demo
+OPP-1037,Snowflake,Emma Johnson,Analytics Module,Qualification,183099,2024-10-17,APAC,Amazing opportunity ahead
+OPP-1038,Confluent,Bob Patel,Cloud Storage,Qualification,367146,2024-11-23,LATAM,"Excellent partnership, very happy with progress"
+OPP-1039,Datadog,Frank Liu,Cloud Storage,Closed Lost,165209,2024-11-01,APAC,Negative feedback received
+OPP-1040,Twilio,Carol Smith,Mobile Platform,Discovery,208227,2024-10-08,APAC,"Struggling to close, client hesitant"
+OPP-1041,Confluent,Grace Taylor,Integration API,Discovery,126623,2024-08-19,APAC,"Deal at risk, issues raised"
+OPP-1042,Datadog,Bob Patel,Starter Pack,Negotiation,105974,2024-05-28,APAC,"Struggling to close, client hesitant"
+OPP-1043,Zoom,Frank Liu,Starter Pack,Qualification,209535,2024-12-21,APAC,Negative feedback received
+OPP-1044,HubSpot,Grace Taylor,Security Add-on,Negotiation,177626,2024-04-19,North America,Highly satisfied customer
+OPP-1045,Oracle,Emma Johnson,Enterprise Suite,Closed Lost,237142,2024-10-23,Europe,Fantastic collaboration
+OPP-1046,ServiceNow,Frank Liu,Analytics Module,Closed Lost,68451,2024-01-07,LATAM,Highly satisfied customer
+OPP-1047,Adobe,David Kim,Starter Pack,Discovery,10312,2024-05-26,LATAM,Disappointed with delays
+OPP-1048,Palantir,Alice Chen,Integration API,Discovery,245699,2024-08-10,LATAM,Amazing opportunity ahead
+OPP-1049,ServiceNow,Alice Chen,Starter Pack,Qualification,297172,2024-04-16,LATAM,Fantastic collaboration
+OPP-1050,Twilio,Grace Taylor,Mobile Platform,Discovery,135421,2024-06-17,LATAM,"Great momentum, client excited"
+OPP-1051,Palantir,Emma Johnson,Integration API,Proposal,425091,2024-08-13,North America,Poor communication so far
+OPP-1052,Salesforce,Henry Brown,Analytics Module,Negotiation,426296,2024-08-20,LATAM,Negative feedback received
+OPP-1053,ServiceNow,Frank Liu,Cloud Storage,Qualification,365265,2024-08-07,Europe,Strong interest shown
+OPP-1054,MongoDB,Grace Taylor,Enterprise Suite,Discovery,178336,2024-05-31,APAC,Disappointed with delays
+OPP-1055,Oracle,Henry Brown,Pro License,Negotiation,101436,2024-12-02,North America,Amazing opportunity ahead
+OPP-1056,Palantir,David Kim,Analytics Module,Closed Lost,271056,2024-07-06,Europe,Thrilled with the demo
+OPP-1057,Stripe,Bob Patel,Starter Pack,Qualification,378099,2024-06-09,North America,Outstanding results delivered
+OPP-1058,MongoDB,Bob Patel,Cloud Storage,Closed Lost,141333,2024-04-10,LATAM,"Deal at risk, issues raised"
+OPP-1059,Slack,Alice Chen,Starter Pack,Negotiation,258770,2024-12-14,Europe,Highly satisfied customer
+OPP-1060,MongoDB,Henry Brown,Starter Pack,Closed Lost,390649,2024-04-30,APAC,"Struggling to close, client hesitant"
+OPP-1061,Snowflake,David Kim,Cloud Storage,Closed Won,323499,2024-12-08,Europe,"Struggling to close, client hesitant"
+OPP-1062,Adobe,Alice Chen,Security Add-on,Closed Lost,230457,2024-09-02,Europe,Outstanding results delivered
+OPP-1063,Twilio,Grace Taylor,Analytics Module,Proposal,124743,2024-04-18,North America,Poor communication so far
+OPP-1064,Microsoft,Alice Chen,Starter Pack,Negotiation,280277,2024-01-26,APAC,Amazing opportunity ahead
+OPP-1065,Confluent,Alice Chen,Security Add-on,Qualification,36900,2024-02-08,North America,Amazing opportunity ahead
+OPP-1066,Stripe,Carol Smith,Security Add-on,Qualification,422775,2024-08-20,North America,Negative feedback received
+OPP-1067,Stripe,David Kim,Analytics Module,Closed Lost,225844,2024-08-06,LATAM,"Excellent partnership, very happy with progress"
+OPP-1068,Palantir,David Kim,Analytics Module,Qualification,357099,2024-01-24,Europe,Outstanding results delivered
+OPP-1069,Palantir,Bob Patel,Pro License,Proposal,230148,2024-08-20,LATAM,Thrilled with the demo
+OPP-1070,Stripe,Grace Taylor,Integration API,Proposal,157271,2024-09-07,LATAM,Negative feedback received
+OPP-1071,ServiceNow,Alice Chen,Integration API,Discovery,121282,2024-09-26,LATAM,Highly satisfied customer
+OPP-1072,Twilio,Bob Patel,Integration API,Discovery,85882,2024-07-03,LATAM,Negative feedback received
+OPP-1073,Oracle,Emma Johnson,Integration API,Negotiation,450030,2024-10-26,Europe,Negative feedback received
+OPP-1074,Twilio,David Kim,Integration API,Discovery,116438,2024-05-15,North America,"Struggling to close, client hesitant"
+OPP-1075,MongoDB,Carol Smith,Cloud Storage,Discovery,61943,2024-03-14,Europe,Concerned about pricing
+OPP-1076,Zoom,David Kim,Analytics Module,Proposal,110022,2024-11-23,LATAM,Fantastic collaboration
+OPP-1077,Salesforce,Frank Liu,Cloud Storage,Negotiation,459734,2024-12-24,North America,Strong interest shown
+OPP-1078,Palantir,David Kim,Security Add-on,Discovery,376813,2024-05-25,Europe,Frustrated with timeline
+OPP-1079,Zoom,Grace Taylor,Enterprise Suite,Closed Lost,156729,2024-12-08,LATAM,"Great momentum, client excited"
+OPP-1080,Zoom,Grace Taylor,Analytics Module,Negotiation,465199,2024-07-28,APAC,Strong interest shown
+OPP-1081,Snowflake,Frank Liu,Security Add-on,Negotiation,490487,2024-01-05,APAC,Negative feedback received
+OPP-1082,Workday,Carol Smith,Enterprise Suite,Discovery,89321,2024-06-17,APAC,"Excellent partnership, very happy with progress"
+OPP-1083,Confluent,Emma Johnson,Cloud Storage,Qualification,469990,2024-10-13,LATAM,"Excellent partnership, very happy with progress"
+OPP-1084,Datadog,Grace Taylor,Security Add-on,Discovery,280707,2024-10-16,Europe,Negative feedback received
+OPP-1085,Snowflake,Emma Johnson,Cloud Storage,Closed Lost,329253,2024-01-30,APAC,Negative feedback received
+OPP-1086,Datadog,David Kim,Mobile Platform,Qualification,457861,2024-05-12,LATAM,"Excellent partnership, very happy with progress"
+OPP-1087,Stripe,Frank Liu,Security Add-on,Proposal,12560,2024-11-19,LATAM,Fantastic collaboration
+OPP-1088,SAP,Carol Smith,Starter Pack,Qualification,17074,2024-06-20,APAC,"Great momentum, client excited"
+OPP-1089,Salesforce,Henry Brown,Pro License,Qualification,412406,2024-12-15,North America,Thrilled with the demo
+OPP-1090,Snowflake,Frank Liu,Integration API,Negotiation,442991,2024-08-18,Europe,"Excellent partnership, very happy with progress"
+OPP-1091,Oracle,Carol Smith,Starter Pack,Closed Won,247260,2024-02-17,Europe,Highly satisfied customer
+OPP-1092,Salesforce,Frank Liu,Security Add-on,Discovery,386432,2024-08-13,Europe,Thrilled with the demo
+OPP-1093,Databricks,Henry Brown,Pro License,Closed Won,182216,2024-12-23,LATAM,Concerned about pricing
+OPP-1094,Oracle,Bob Patel,Integration API,Closed Won,120178,2024-01-09,Europe,"Struggling to close, client hesitant"
+OPP-1095,Snowflake,David Kim,Mobile Platform,Closed Lost,472680,2024-08-21,North America,Frustrated with timeline
+OPP-1096,Snowflake,Henry Brown,Enterprise Suite,Proposal,209055,2024-07-16,APAC,Strong interest shown
+OPP-1097,Workday,Carol Smith,Security Add-on,Qualification,462035,2024-07-13,LATAM,Disappointed with delays
+OPP-1098,MongoDB,Bob Patel,Starter Pack,Discovery,472190,2024-04-02,Europe,Concerned about pricing
+OPP-1099,Slack,Henry Brown,Mobile Platform,Discovery,462395,2024-03-11,LATAM,Strong interest shown
+OPP-1100,Oracle,Emma Johnson,Mobile Platform,Closed Won,334530,2024-05-04,Europe,Strong interest shown
+OPP-1101,Elastic,David Kim,Security Add-on,Negotiation,256207,2024-09-15,Europe,Amazing opportunity ahead
+OPP-1102,Palantir,Frank Liu,Integration API,Qualification,420086,2024-06-19,APAC,"Great momentum, client excited"
+OPP-1103,Confluent,Carol Smith,Pro License,Negotiation,69216,2024-06-13,LATAM,Outstanding results delivered
+OPP-1104,Twilio,David Kim,Analytics Module,Proposal,452445,2024-04-27,Europe,"Struggling to close, client hesitant"
+OPP-1105,Databricks,David Kim,Mobile Platform,Qualification,254733,2024-01-20,LATAM,Poor communication so far
+OPP-1106,Palantir,Alice Chen,Integration API,Qualification,67961,2024-02-15,North America,Outstanding results delivered
+OPP-1107,SAP,Emma Johnson,Enterprise Suite,Qualification,301304,2024-10-14,North America,Amazing opportunity ahead
+OPP-1108,Stripe,Emma Johnson,Pro License,Negotiation,191216,2024-06-30,APAC,"Excellent partnership, very happy with progress"
+OPP-1109,Twilio,Bob Patel,Security Add-on,Qualification,309082,2024-11-17,LATAM,Concerned about pricing
+OPP-1110,Slack,Grace Taylor,Cloud Storage,Closed Lost,281864,2024-10-09,Europe,Strong interest shown
+OPP-1111,ServiceNow,Carol Smith,Security Add-on,Closed Won,126712,2024-03-11,North America,Amazing opportunity ahead
+OPP-1112,Twilio,Carol Smith,Pro License,Discovery,163781,2024-04-23,LATAM,Outstanding results delivered
+OPP-1113,Workday,Alice Chen,Pro License,Qualification,139849,2024-01-22,Europe,"Great momentum, client excited"
+OPP-1114,Datadog,Henry Brown,Analytics Module,Discovery,180855,2024-10-12,APAC,Negative feedback received
+OPP-1115,Adobe,Carol Smith,Integration API,Proposal,468610,2024-11-16,North America,Amazing opportunity ahead
+OPP-1116,Zendesk,David Kim,Pro License,Closed Lost,123783,2024-04-21,North America,Fantastic collaboration
+OPP-1117,Microsoft,Emma Johnson,Starter Pack,Proposal,163955,2024-06-03,APAC,Amazing opportunity ahead
+OPP-1118,HubSpot,Bob Patel,Mobile Platform,Negotiation,424333,2024-09-28,Europe,"Excellent partnership, very happy with progress"
+OPP-1119,Twilio,Carol Smith,Starter Pack,Closed Lost,89791,2024-01-22,APAC,Frustrated with timeline
+OPP-1120,Twilio,Bob Patel,Starter Pack,Negotiation,383483,2024-10-28,Europe,Fantastic collaboration
+OPP-1121,Snowflake,Alice Chen,Pro License,Closed Won,447617,2024-12-13,LATAM,Disappointed with delays
+OPP-1122,Adobe,Carol Smith,Cloud Storage,Qualification,429827,2024-04-26,LATAM,Poor communication so far
+OPP-1123,ServiceNow,David Kim,Pro License,Proposal,270361,2024-01-31,APAC,"Excellent partnership, very happy with progress"
+OPP-1124,Zoom,Carol Smith,Mobile Platform,Negotiation,292070,2024-08-31,North America,Highly satisfied customer
+OPP-1125,Salesforce,Carol Smith,Cloud Storage,Negotiation,131699,2024-02-24,LATAM,Negative feedback received
+OPP-1126,Datadog,Frank Liu,Starter Pack,Negotiation,177342,2024-05-03,LATAM,"Struggling to close, client hesitant"
+OPP-1127,Adobe,David Kim,Integration API,Proposal,487084,2024-05-31,North America,Strong interest shown
+OPP-1128,ServiceNow,Carol Smith,Cloud Storage,Closed Lost,398363,2024-04-20,LATAM,Strong interest shown
+OPP-1129,Zoom,Grace Taylor,Mobile Platform,Closed Won,45753,2024-04-20,Europe,"Deal at risk, issues raised"
+OPP-1130,Palantir,Bob Patel,Security Add-on,Closed Won,93043,2024-04-03,Europe,"Struggling to close, client hesitant"
+OPP-1131,Stripe,Grace Taylor,Integration API,Closed Won,126033,2024-12-13,LATAM,Negative feedback received
+OPP-1132,Twilio,Bob Patel,Mobile Platform,Discovery,459067,2024-11-09,Europe,Thrilled with the demo
+OPP-1133,Datadog,Carol Smith,Security Add-on,Discovery,348517,2024-03-30,North America,Negative feedback received
+OPP-1134,Zoom,Carol Smith,Mobile Platform,Closed Lost,423549,2024-03-09,North America,"Deal at risk, issues raised"
+OPP-1135,Databricks,Emma Johnson,Starter Pack,Closed Lost,457476,2024-02-02,North America,Poor communication so far
+OPP-1136,Zendesk,Frank Liu,Integration API,Closed Lost,24717,2024-04-20,LATAM,"Excellent partnership, very happy with progress"
+OPP-1137,HubSpot,Grace Taylor,Integration API,Qualification,381906,2024-09-27,North America,Frustrated with timeline
+OPP-1138,Elastic,Alice Chen,Cloud Storage,Closed Won,83356,2024-05-21,LATAM,Strong interest shown
+OPP-1139,Databricks,Alice Chen,Pro License,Discovery,75601,2024-09-16,Europe,"Excellent partnership, very happy with progress"
+OPP-1140,Databricks,Henry Brown,Cloud Storage,Proposal,357176,2024-11-04,APAC,Highly satisfied customer
+OPP-1141,MongoDB,Alice Chen,Security Add-on,Negotiation,465454,2024-10-10,APAC,Disappointed with delays
+OPP-1142,Palantir,Emma Johnson,Starter Pack,Closed Lost,77112,2024-05-18,North America,"Excellent partnership, very happy with progress"
+OPP-1143,HubSpot,Emma Johnson,Pro License,Closed Won,200323,2024-05-17,APAC,"Excellent partnership, very happy with progress"
+OPP-1144,Slack,Henry Brown,Cloud Storage,Qualification,337095,2024-06-06,North America,"Struggling to close, client hesitant"
+OPP-1145,Stripe,David Kim,Mobile Platform,Proposal,166132,2024-03-09,North America,"Great momentum, client excited"
+OPP-1146,Zoom,David Kim,Pro License,Proposal,145801,2024-03-24,North America,Fantastic collaboration
+OPP-1147,Elastic,Alice Chen,Mobile Platform,Closed Lost,116270,2024-04-13,APAC,"Great momentum, client excited"
+OPP-1148,SAP,Henry Brown,Enterprise Suite,Closed Lost,102557,2024-01-14,Europe,Poor communication so far
+OPP-1149,Databricks,Bob Patel,Analytics Module,Discovery,54040,2024-02-06,LATAM,Concerned about pricing
+OPP-1150,Confluent,Bob Patel,Mobile Platform,Qualification,399849,2024-02-24,LATAM,Disappointed with delays
+OPP-1151,Databricks,David Kim,Cloud Storage,Closed Won,491717,2024-01-27,LATAM,"Excellent partnership, very happy with progress"
+OPP-1152,Oracle,Alice Chen,Analytics Module,Closed Won,120908,2024-01-01,APAC,Amazing opportunity ahead
+OPP-1153,Zendesk,Grace Taylor,Starter Pack,Closed Won,29898,2024-05-15,North America,"Struggling to close, client hesitant"
+OPP-1154,Confluent,Henry Brown,Starter Pack,Qualification,415894,2024-07-19,Europe,Highly satisfied customer
+OPP-1155,Salesforce,David Kim,Security Add-on,Closed Won,15492,2024-03-05,LATAM,Amazing opportunity ahead
+OPP-1156,Palantir,Bob Patel,Integration API,Negotiation,157765,2024-10-21,APAC,Disappointed with delays
+OPP-1157,Salesforce,Alice Chen,Mobile Platform,Closed Won,59347,2024-10-24,North America,Poor communication so far
+OPP-1158,Slack,Bob Patel,Analytics Module,Discovery,345833,2024-12-08,LATAM,Poor communication so far
+OPP-1159,Salesforce,Henry Brown,Analytics Module,Closed Won,174281,2024-07-03,North America,Outstanding results delivered
+OPP-1160,Palantir,Alice Chen,Security Add-on,Negotiation,355392,2024-06-02,Europe,Fantastic collaboration
+OPP-1161,Zoom,Grace Taylor,Cloud Storage,Closed Lost,334785,2024-05-12,Europe,"Struggling to close, client hesitant"
+OPP-1162,HubSpot,Henry Brown,Security Add-on,Proposal,225932,2024-11-01,LATAM,Amazing opportunity ahead
+OPP-1163,Palantir,Emma Johnson,Starter Pack,Proposal,171106,2024-05-13,APAC,Disappointed with delays
+OPP-1164,Zendesk,Frank Liu,Pro License,Proposal,83401,2024-04-03,LATAM,Strong interest shown
+OPP-1165,Snowflake,David Kim,Pro License,Qualification,345238,2024-02-16,Europe,Highly satisfied customer
+OPP-1166,Salesforce,Henry Brown,Mobile Platform,Closed Won,141442,2024-03-11,North America,Poor communication so far
+OPP-1167,SAP,Henry Brown,Starter Pack,Proposal,279171,2024-08-25,APAC,Amazing opportunity ahead
+OPP-1168,ServiceNow,Emma Johnson,Integration API,Proposal,331537,2024-06-21,North America,Poor communication so far
+OPP-1169,HubSpot,David Kim,Cloud Storage,Proposal,298974,2024-12-26,LATAM,Negative feedback received
+OPP-1170,Stripe,Alice Chen,Mobile Platform,Closed Lost,291460,2024-07-18,APAC,Amazing opportunity ahead
+OPP-1171,Zoom,Emma Johnson,Mobile Platform,Negotiation,71107,2024-12-19,APAC,Thrilled with the demo
+OPP-1172,Adobe,Frank Liu,Enterprise Suite,Proposal,366822,2024-04-24,LATAM,Thrilled with the demo
+OPP-1173,ServiceNow,Henry Brown,Pro License,Proposal,100034,2024-02-16,LATAM,Highly satisfied customer
+OPP-1174,Adobe,Frank Liu,Security Add-on,Discovery,358209,2024-11-28,North America,Highly satisfied customer
+OPP-1175,SAP,Alice Chen,Security Add-on,Qualification,113059,2024-10-19,North America,Highly satisfied customer
+OPP-1176,Stripe,Henry Brown,Security Add-on,Discovery,394588,2024-06-02,North America,Poor communication so far
+OPP-1177,SAP,Carol Smith,Security Add-on,Qualification,194997,2024-09-14,Europe,Fantastic collaboration
+OPP-1178,HubSpot,Carol Smith,Security Add-on,Closed Lost,52587,2024-06-03,North America,"Great momentum, client excited"
+OPP-1179,MongoDB,Henry Brown,Analytics Module,Closed Won,39561,2024-02-04,North America,Amazing opportunity ahead
+OPP-1180,Databricks,Emma Johnson,Analytics Module,Proposal,476312,2024-07-06,North America,Highly satisfied customer
+OPP-1181,HubSpot,Alice Chen,Mobile Platform,Discovery,406021,2024-08-09,North America,Poor communication so far
+OPP-1182,Slack,Emma Johnson,Enterprise Suite,Closed Lost,71264,2024-06-02,APAC,Negative feedback received
+OPP-1183,Slack,Carol Smith,Enterprise Suite,Negotiation,125924,2024-08-06,LATAM,Strong interest shown
+OPP-1184,HubSpot,David Kim,Integration API,Proposal,351711,2024-05-12,APAC,Highly satisfied customer
+OPP-1185,MongoDB,Carol Smith,Enterprise Suite,Closed Won,452561,2024-05-17,APAC,Fantastic collaboration
+OPP-1186,Salesforce,Grace Taylor,Cloud Storage,Negotiation,475860,2024-02-25,LATAM,Thrilled with the demo
+OPP-1187,MongoDB,Grace Taylor,Analytics Module,Negotiation,239941,2024-04-11,North America,"Great momentum, client excited"
+OPP-1188,Slack,Grace Taylor,Pro License,Proposal,414770,2024-10-11,North America,"Struggling to close, client hesitant"
+OPP-1189,Twilio,David Kim,Enterprise Suite,Negotiation,172386,2024-09-05,LATAM,"Struggling to close, client hesitant"
+OPP-1190,ServiceNow,Emma Johnson,Starter Pack,Closed Lost,393221,2024-12-18,Europe,Frustrated with timeline
+OPP-1191,Workday,Frank Liu,Enterprise Suite,Discovery,305573,2024-12-13,Europe,Outstanding results delivered
+OPP-1192,SAP,Henry Brown,Starter Pack,Proposal,213092,2024-07-05,North America,Poor communication so far
+OPP-1193,Confluent,Bob Patel,Cloud Storage,Qualification,184643,2024-08-28,North America,Fantastic collaboration
+OPP-1194,Adobe,Alice Chen,Enterprise Suite,Closed Won,277455,2024-10-13,APAC,Thrilled with the demo
+OPP-1195,ServiceNow,Alice Chen,Mobile Platform,Discovery,67642,2024-04-27,Europe,"Deal at risk, issues raised"
+OPP-1196,SAP,Henry Brown,Analytics Module,Closed Lost,397326,2024-08-02,APAC,Strong interest shown
+OPP-1197,SAP,Carol Smith,Security Add-on,Negotiation,188360,2024-03-03,Europe,"Great momentum, client excited"
+OPP-1198,MongoDB,Carol Smith,Analytics Module,Closed Lost,79419,2024-08-21,North America,Negative feedback received
+OPP-1199,Confluent,Carol Smith,Starter Pack,Closed Lost,441171,2024-04-26,APAC,Fantastic collaboration
+OPP-1200,Palantir,Grace Taylor,Security Add-on,Negotiation,478464,2024-04-19,North America,"Great momentum, client excited"
+OPP-1201,Datadog,Alice Chen,Security Add-on,Closed Won,241445,2024-11-17,North America,Negative feedback received
+OPP-1202,SAP,Bob Patel,Enterprise Suite,Closed Won,210924,2024-01-31,North America,"Struggling to close, client hesitant"
+OPP-1203,Zendesk,Henry Brown,Integration API,Proposal,61106,2024-08-17,Europe,Negative feedback received
+OPP-1204,Oracle,David Kim,Analytics Module,Proposal,291185,2024-09-25,APAC,"Deal at risk, issues raised"
+OPP-1205,Confluent,Carol Smith,Security Add-on,Negotiation,416140,2024-05-29,APAC,"Great momentum, client excited"
+OPP-1206,Salesforce,Grace Taylor,Integration API,Qualification,187916,2024-12-03,North America,Thrilled with the demo
+OPP-1207,Salesforce,Grace Taylor,Cloud Storage,Closed Lost,128591,2024-06-17,Europe,Outstanding results delivered
+OPP-1208,Snowflake,Emma Johnson,Security Add-on,Negotiation,205072,2024-11-04,North America,Outstanding results delivered
+OPP-1209,Adobe,Emma Johnson,Integration API,Closed Won,162314,2024-04-19,APAC,Outstanding results delivered
+OPP-1210,Snowflake,Frank Liu,Pro License,Closed Won,253910,2024-04-30,North America,Negative feedback received
+OPP-1211,Workday,Emma Johnson,Integration API,Negotiation,324449,2024-06-04,LATAM,Strong interest shown
+OPP-1212,Snowflake,Carol Smith,Mobile Platform,Closed Won,120183,2024-01-05,LATAM,Concerned about pricing
+OPP-1213,Elastic,Henry Brown,Analytics Module,Proposal,352463,2024-04-04,North America,Outstanding results delivered
+OPP-1214,ServiceNow,Henry Brown,Integration API,Negotiation,489747,2024-12-04,Europe,Disappointed with delays
+OPP-1215,Zendesk,Carol Smith,Enterprise Suite,Closed Won,471485,2024-04-02,Europe,Negative feedback received
+OPP-1216,ServiceNow,Grace Taylor,Integration API,Qualification,151874,2024-07-30,APAC,Strong interest shown
+OPP-1217,Elastic,Bob Patel,Integration API,Qualification,94089,2024-02-29,Europe,Disappointed with delays
+OPP-1218,Datadog,Henry Brown,Enterprise Suite,Closed Won,257930,2024-05-11,APAC,"Great momentum, client excited"
+OPP-1219,Databricks,Emma Johnson,Pro License,Proposal,275684,2024-12-15,Europe,"Struggling to close, client hesitant"
+OPP-1220,Microsoft,Frank Liu,Starter Pack,Negotiation,473271,2024-11-12,Europe,Negative feedback received
+OPP-1221,Slack,Bob Patel,Starter Pack,Proposal,294500,2024-11-29,Europe,"Great momentum, client excited"
+OPP-1222,Oracle,Frank Liu,Analytics Module,Closed Lost,85291,2024-08-06,North America,Outstanding results delivered
+OPP-1223,Zendesk,Frank Liu,Enterprise Suite,Qualification,228343,2024-06-24,North America,Poor communication so far
+OPP-1224,Slack,Alice Chen,Starter Pack,Negotiation,306380,2024-02-21,Europe,"Excellent partnership, very happy with progress"
+OPP-1225,Adobe,Frank Liu,Enterprise Suite,Qualification,187473,2024-07-10,APAC,"Excellent partnership, very happy with progress"
+OPP-1226,ServiceNow,Grace Taylor,Pro License,Proposal,343075,2024-12-17,North America,"Struggling to close, client hesitant"
+OPP-1227,Zoom,Carol Smith,Mobile Platform,Negotiation,139297,2024-03-26,North America,Amazing opportunity ahead
+OPP-1228,Salesforce,Henry Brown,Analytics Module,Qualification,124652,2024-12-02,APAC,Outstanding results delivered
+OPP-1229,Databricks,Bob Patel,Mobile Platform,Closed Won,172246,2024-04-12,North America,Highly satisfied customer
+OPP-1230,Microsoft,David Kim,Cloud Storage,Negotiation,425095,2024-03-17,Europe,Strong interest shown
+OPP-1231,HubSpot,David Kim,Security Add-on,Proposal,108908,2024-10-11,Europe,Thrilled with the demo
+OPP-1232,Salesforce,Alice Chen,Analytics Module,Qualification,217706,2024-08-13,North America,Negative feedback received
+OPP-1233,Zoom,Emma Johnson,Mobile Platform,Proposal,361577,2024-12-07,Europe,Strong interest shown
+OPP-1234,HubSpot,Frank Liu,Mobile Platform,Proposal,317173,2024-04-29,LATAM,Poor communication so far
+OPP-1235,MongoDB,Carol Smith,Enterprise Suite,Qualification,45720,2024-06-15,LATAM,Frustrated with timeline
+OPP-1236,Zoom,Alice Chen,Mobile Platform,Closed Won,52543,2024-02-14,Europe,Negative feedback received
+OPP-1237,Oracle,Grace Taylor,Enterprise Suite,Closed Won,483467,2024-12-22,APAC,Fantastic collaboration
+OPP-1238,Databricks,Frank Liu,Integration API,Closed Lost,191215,2024-03-15,Europe,Highly satisfied customer
+OPP-1239,Zendesk,David Kim,Enterprise Suite,Closed Lost,313328,2024-02-12,APAC,Fantastic collaboration
+OPP-1240,Adobe,Carol Smith,Integration API,Closed Lost,277923,2024-10-11,APAC,Concerned about pricing
+OPP-1241,Slack,Carol Smith,Enterprise Suite,Closed Won,162440,2024-09-29,LATAM,Disappointed with delays
+OPP-1242,Oracle,Henry Brown,Security Add-on,Proposal,299117,2024-02-22,Europe,Amazing opportunity ahead
+OPP-1243,SAP,David Kim,Pro License,Negotiation,497711,2024-04-15,North America,Strong interest shown
+OPP-1244,Databricks,Emma Johnson,Enterprise Suite,Proposal,437046,2024-06-02,North America,"Excellent partnership, very happy with progress"
+OPP-1245,Snowflake,Emma Johnson,Security Add-on,Proposal,139595,2024-02-01,North America,"Great momentum, client excited"
+OPP-1246,Databricks,Frank Liu,Pro License,Closed Won,281194,2024-07-25,LATAM,Frustrated with timeline
+OPP-1247,Salesforce,Henry Brown,Integration API,Closed Won,129402,2024-03-13,LATAM,Negative feedback received
+OPP-1248,Twilio,Henry Brown,Mobile Platform,Proposal,161376,2024-08-05,Europe,Amazing opportunity ahead
+OPP-1249,SAP,David Kim,Analytics Module,Qualification,154720,2024-09-14,APAC,"Deal at risk, issues raised"
+OPP-1250,Zoom,Bob Patel,Pro License,Qualification,470779,2024-10-04,APAC,Negative feedback received
+OPP-1251,Oracle,David Kim,Cloud Storage,Discovery,392746,2024-03-11,Europe,"Struggling to close, client hesitant"
+OPP-1252,MongoDB,Bob Patel,Cloud Storage,Qualification,479435,2024-07-31,Europe,"Deal at risk, issues raised"
+OPP-1253,Snowflake,Alice Chen,Enterprise Suite,Proposal,205388,2024-10-30,Europe,"Deal at risk, issues raised"
+OPP-1254,SAP,Alice Chen,Cloud Storage,Closed Lost,455991,2024-08-23,LATAM,Frustrated with timeline
+OPP-1255,Stripe,Grace Taylor,Mobile Platform,Discovery,42824,2024-11-05,APAC,Frustrated with timeline
+OPP-1256,Oracle,Grace Taylor,Cloud Storage,Proposal,192137,2024-01-12,Europe,Poor communication so far
+OPP-1257,Zoom,Bob Patel,Pro License,Closed Lost,167798,2024-08-01,North America,Concerned about pricing
+OPP-1258,Adobe,Emma Johnson,Enterprise Suite,Closed Lost,366133,2024-09-07,North America,"Great momentum, client excited"
+OPP-1259,Slack,Bob Patel,Pro License,Qualification,188971,2024-04-04,North America,Concerned about pricing
+OPP-1260,Stripe,Grace Taylor,Security Add-on,Discovery,227568,2024-09-28,LATAM,Frustrated with timeline
+OPP-1261,HubSpot,Grace Taylor,Pro License,Proposal,438311,2024-07-20,APAC,Disappointed with delays
+OPP-1262,Palantir,Henry Brown,Enterprise Suite,Closed Won,209580,2024-02-07,LATAM,Highly satisfied customer
+OPP-1263,Palantir,Carol Smith,Starter Pack,Proposal,20851,2024-08-11,Europe,Concerned about pricing
+OPP-1264,Stripe,Bob Patel,Cloud Storage,Proposal,396959,2024-06-27,North America,Fantastic collaboration
+OPP-1265,Twilio,Henry Brown,Starter Pack,Closed Lost,289140,2024-12-05,Europe,Concerned about pricing
+OPP-1266,Stripe,Carol Smith,Pro License,Closed Lost,74360,2024-01-24,North America,"Deal at risk, issues raised"
+OPP-1267,ServiceNow,Grace Taylor,Analytics Module,Closed Lost,421219,2024-09-17,LATAM,Negative feedback received
+OPP-1268,Palantir,David Kim,Enterprise Suite,Negotiation,87556,2024-06-30,APAC,Poor communication so far
+OPP-1269,Databricks,Grace Taylor,Security Add-on,Negotiation,82938,2024-03-05,APAC,"Excellent partnership, very happy with progress"
+OPP-1270,Snowflake,David Kim,Security Add-on,Negotiation,328002,2024-07-25,LATAM,Thrilled with the demo
+OPP-1271,Workday,Carol Smith,Mobile Platform,Proposal,37993,2024-09-29,Europe,Outstanding results delivered
+OPP-1272,Slack,Carol Smith,Cloud Storage,Negotiation,24861,2024-03-13,Europe,Strong interest shown
+OPP-1273,Snowflake,Emma Johnson,Enterprise Suite,Negotiation,459654,2024-12-25,North America,Fantastic collaboration
+OPP-1274,Databricks,Grace Taylor,Security Add-on,Closed Lost,396629,2024-03-26,Europe,Outstanding results delivered
+OPP-1275,Zendesk,Bob Patel,Security Add-on,Closed Won,262175,2024-10-11,Europe,"Deal at risk, issues raised"
+OPP-1276,Confluent,Henry Brown,Starter Pack,Proposal,184641,2024-10-27,Europe,"Struggling to close, client hesitant"
+OPP-1277,Elastic,Grace Taylor,Security Add-on,Discovery,259905,2024-02-27,LATAM,"Deal at risk, issues raised"
+OPP-1278,Microsoft,Carol Smith,Cloud Storage,Closed Lost,451592,2024-05-15,LATAM,Frustrated with timeline
+OPP-1279,Palantir,Carol Smith,Enterprise Suite,Closed Lost,490661,2024-12-31,Europe,Fantastic collaboration
+OPP-1280,ServiceNow,David Kim,Security Add-on,Qualification,42015,2024-08-20,North America,Concerned about pricing
+OPP-1281,Workday,David Kim,Cloud Storage,Discovery,255497,2024-01-22,North America,"Struggling to close, client hesitant"
+OPP-1282,Datadog,Alice Chen,Enterprise Suite,Proposal,67240,2024-04-12,LATAM,"Excellent partnership, very happy with progress"
+OPP-1283,Snowflake,Carol Smith,Enterprise Suite,Proposal,369373,2024-01-02,North America,"Struggling to close, client hesitant"
+OPP-1284,Slack,Alice Chen,Starter Pack,Qualification,377241,2024-05-15,APAC,Outstanding results delivered
+OPP-1285,ServiceNow,Grace Taylor,Enterprise Suite,Closed Lost,151064,2024-08-10,Europe,"Excellent partnership, very happy with progress"
+OPP-1286,Palantir,Frank Liu,Cloud Storage,Qualification,136666,2024-04-07,APAC,"Great momentum, client excited"
+OPP-1287,MongoDB,Emma Johnson,Enterprise Suite,Discovery,112030,2024-11-12,APAC,Disappointed with delays
+OPP-1288,Datadog,Emma Johnson,Enterprise Suite,Discovery,156652,2024-01-30,North America,Disappointed with delays
+OPP-1289,Microsoft,Carol Smith,Mobile Platform,Discovery,113180,2024-01-01,LATAM,Strong interest shown
+OPP-1290,Oracle,Henry Brown,Integration API,Negotiation,483394,2024-06-27,APAC,Disappointed with delays
+OPP-1291,Microsoft,Bob Patel,Starter Pack,Closed Won,93724,2024-12-21,Europe,Concerned about pricing
+OPP-1292,Salesforce,Alice Chen,Cloud Storage,Closed Lost,425915,2024-04-19,Europe,Highly satisfied customer
+OPP-1293,Oracle,Emma Johnson,Cloud Storage,Closed Lost,49126,2024-11-08,North America,"Deal at risk, issues raised"
+OPP-1294,Stripe,David Kim,Pro License,Closed Won,107000,2024-09-11,North America,"Excellent partnership, very happy with progress"
+OPP-1295,Salesforce,David Kim,Starter Pack,Qualification,463831,2024-10-22,LATAM,Negative feedback received
+OPP-1296,Zendesk,Henry Brown,Integration API,Closed Won,18616,2024-04-01,Europe,Strong interest shown
+OPP-1297,ServiceNow,Grace Taylor,Mobile Platform,Qualification,92065,2024-08-12,Europe,Strong interest shown
+OPP-1298,Confluent,Carol Smith,Analytics Module,Proposal,201843,2024-09-06,LATAM,Disappointed with delays
+OPP-1299,ServiceNow,Grace Taylor,Starter Pack,Closed Won,204331,2024-01-24,APAC,Negative feedback received
+OPP-1300,Palantir,Frank Liu,Analytics Module,Discovery,269621,2024-03-19,LATAM,Negative feedback received
+OPP-1301,ServiceNow,Frank Liu,Enterprise Suite,Closed Lost,49985,2024-02-02,North America,Amazing opportunity ahead
+OPP-1302,Slack,Grace Taylor,Enterprise Suite,Discovery,438048,2024-05-22,Europe,Frustrated with timeline
+OPP-1303,Palantir,Henry Brown,Enterprise Suite,Closed Lost,480249,2024-03-13,LATAM,Disappointed with delays
+OPP-1304,Oracle,Henry Brown,Mobile Platform,Proposal,441652,2024-07-24,LATAM,Poor communication so far
+OPP-1305,HubSpot,David Kim,Analytics Module,Qualification,459041,2024-10-25,Europe,Disappointed with delays
+OPP-1306,Twilio,Frank Liu,Cloud Storage,Discovery,184876,2024-12-08,North America,"Deal at risk, issues raised"
+OPP-1307,Workday,Bob Patel,Analytics Module,Qualification,222350,2024-08-20,LATAM,Highly satisfied customer
+OPP-1308,Slack,Emma Johnson,Cloud Storage,Qualification,106128,2024-11-01,LATAM,Outstanding results delivered
+OPP-1309,ServiceNow,Carol Smith,Starter Pack,Proposal,21726,2024-04-27,North America,Poor communication so far
+OPP-1310,Slack,Grace Taylor,Enterprise Suite,Qualification,107571,2024-11-22,APAC,Negative feedback received
+OPP-1311,HubSpot,Bob Patel,Mobile Platform,Closed Won,299159,2024-08-22,Europe,"Excellent partnership, very happy with progress"
+OPP-1312,MongoDB,Frank Liu,Analytics Module,Proposal,155329,2024-09-20,North America,Negative feedback received
+OPP-1313,Palantir,Emma Johnson,Integration API,Discovery,291447,2024-05-30,LATAM,"Struggling to close, client hesitant"
+OPP-1314,Adobe,Alice Chen,Integration API,Qualification,40082,2024-06-19,North America,"Struggling to close, client hesitant"
+OPP-1315,Zoom,Frank Liu,Enterprise Suite,Closed Lost,228739,2024-04-02,APAC,"Deal at risk, issues raised"
+OPP-1316,Snowflake,Carol Smith,Starter Pack,Proposal,429538,2024-10-23,North America,Frustrated with timeline
+OPP-1317,Palantir,David Kim,Integration API,Qualification,256997,2024-09-08,Europe,Highly satisfied customer
+OPP-1318,Salesforce,Henry Brown,Mobile Platform,Negotiation,20906,2024-04-10,North America,"Struggling to close, client hesitant"
+OPP-1319,ServiceNow,David Kim,Starter Pack,Discovery,374250,2024-08-06,LATAM,Highly satisfied customer
+OPP-1320,Datadog,Bob Patel,Pro License,Discovery,404911,2024-04-14,North America,Amazing opportunity ahead
+OPP-1321,Salesforce,Grace Taylor,Analytics Module,Closed Won,457441,2024-06-09,Europe,"Excellent partnership, very happy with progress"
+OPP-1322,ServiceNow,Alice Chen,Cloud Storage,Discovery,74432,2024-06-29,North America,Outstanding results delivered
+OPP-1323,Twilio,Grace Taylor,Integration API,Closed Won,273679,2024-02-23,Europe,"Deal at risk, issues raised"
+OPP-1324,Palantir,Emma Johnson,Analytics Module,Closed Lost,467777,2024-11-04,APAC,"Excellent partnership, very happy with progress"
+OPP-1325,Stripe,Henry Brown,Pro License,Negotiation,100258,2024-10-17,Europe,Amazing opportunity ahead
+OPP-1326,Stripe,Henry Brown,Starter Pack,Proposal,472291,2024-01-08,Europe,Amazing opportunity ahead
+OPP-1327,Elastic,Carol Smith,Cloud Storage,Negotiation,269605,2024-06-30,LATAM,"Deal at risk, issues raised"
+OPP-1328,Elastic,Carol Smith,Integration API,Proposal,159374,2024-11-01,Europe,Disappointed with delays
+OPP-1329,Adobe,Alice Chen,Security Add-on,Discovery,489214,2024-09-08,APAC,"Struggling to close, client hesitant"
+OPP-1330,Snowflake,Emma Johnson,Mobile Platform,Closed Lost,191566,2024-10-07,North America,Frustrated with timeline
+OPP-1331,Slack,Frank Liu,Cloud Storage,Closed Lost,141780,2024-08-13,APAC,Poor communication so far
+OPP-1332,Zendesk,Emma Johnson,Mobile Platform,Negotiation,370689,2024-07-16,APAC,"Excellent partnership, very happy with progress"
+OPP-1333,Zoom,Emma Johnson,Integration API,Closed Won,148107,2024-10-12,Europe,Outstanding results delivered
+OPP-1334,Zoom,Bob Patel,Enterprise Suite,Closed Won,205319,2024-02-28,LATAM,Disappointed with delays
+OPP-1335,Adobe,Bob Patel,Cloud Storage,Proposal,187855,2024-04-23,Europe,Poor communication so far
+OPP-1336,Snowflake,Emma Johnson,Analytics Module,Closed Lost,258137,2024-05-18,North America,Highly satisfied customer
+OPP-1337,ServiceNow,David Kim,Starter Pack,Qualification,331399,2024-12-29,North America,Outstanding results delivered
+OPP-1338,ServiceNow,Bob Patel,Pro License,Closed Lost,270639,2024-06-15,North America,Outstanding results delivered
+OPP-1339,Twilio,Frank Liu,Pro License,Proposal,393418,2024-11-15,Europe,Frustrated with timeline
+OPP-1340,Workday,Henry Brown,Mobile Platform,Closed Lost,123980,2024-03-11,North America,Fantastic collaboration
+OPP-1341,Microsoft,Alice Chen,Integration API,Proposal,375142,2024-01-05,APAC,Frustrated with timeline
+OPP-1342,SAP,David Kim,Integration API,Closed Lost,215422,2024-05-04,LATAM,Disappointed with delays
+OPP-1343,Datadog,Alice Chen,Starter Pack,Discovery,144033,2024-03-05,North America,"Great momentum, client excited"
+OPP-1344,Stripe,David Kim,Pro License,Closed Won,54840,2024-01-02,LATAM,Concerned about pricing
+OPP-1345,Twilio,Grace Taylor,Enterprise Suite,Negotiation,431822,2024-03-03,North America,Strong interest shown
+OPP-1346,Adobe,Grace Taylor,Starter Pack,Negotiation,253902,2024-05-27,APAC,Strong interest shown
+OPP-1347,Zoom,Bob Patel,Security Add-on,Proposal,221215,2024-03-25,APAC,"Excellent partnership, very happy with progress"
+OPP-1348,HubSpot,Frank Liu,Integration API,Proposal,104577,2024-10-13,LATAM,Concerned about pricing
+OPP-1349,Slack,Bob Patel,Enterprise Suite,Qualification,121521,2024-06-07,Europe,Fantastic collaboration
+OPP-1350,Datadog,David Kim,Integration API,Discovery,169490,2024-06-09,APAC,Amazing opportunity ahead
+OPP-1351,Elastic,Bob Patel,Pro License,Negotiation,182483,2024-02-17,LATAM,Disappointed with delays
+OPP-1352,Slack,Bob Patel,Pro License,Qualification,411805,2024-08-27,LATAM,"Excellent partnership, very happy with progress"
+OPP-1353,Zendesk,David Kim,Integration API,Qualification,377932,2024-01-11,APAC,Outstanding results delivered
+OPP-1354,SAP,Frank Liu,Starter Pack,Proposal,482937,2024-05-25,North America,Frustrated with timeline
+OPP-1355,Oracle,David Kim,Cloud Storage,Qualification,24455,2024-10-25,North America,Strong interest shown
+OPP-1356,Zendesk,Frank Liu,Pro License,Proposal,492393,2024-08-20,North America,Concerned about pricing
+OPP-1357,Salesforce,Frank Liu,Analytics Module,Closed Lost,61320,2024-04-03,LATAM,Amazing opportunity ahead
+OPP-1358,HubSpot,Alice Chen,Security Add-on,Proposal,179924,2024-02-15,North America,Poor communication so far
+OPP-1359,Databricks,Grace Taylor,Analytics Module,Negotiation,142453,2024-12-31,APAC,Amazing opportunity ahead
+OPP-1360,Datadog,Frank Liu,Security Add-on,Closed Won,399633,2024-04-17,Europe,Poor communication so far
+OPP-1361,Zendesk,Henry Brown,Enterprise Suite,Proposal,288022,2024-05-02,Europe,"Great momentum, client excited"
+OPP-1362,HubSpot,Emma Johnson,Cloud Storage,Discovery,245343,2024-06-19,LATAM,Disappointed with delays
+OPP-1363,Oracle,Frank Liu,Integration API,Closed Lost,298201,2024-06-14,Europe,Outstanding results delivered
+OPP-1364,HubSpot,Grace Taylor,Analytics Module,Negotiation,415881,2024-11-07,LATAM,"Struggling to close, client hesitant"
+OPP-1365,Elastic,Emma Johnson,Pro License,Negotiation,340067,2024-07-10,LATAM,"Deal at risk, issues raised"
+OPP-1366,Workday,David Kim,Integration API,Qualification,81657,2024-09-04,Europe,Highly satisfied customer
+OPP-1367,Confluent,Carol Smith,Cloud Storage,Discovery,202963,2024-06-29,LATAM,Highly satisfied customer
+OPP-1368,Microsoft,Grace Taylor,Enterprise Suite,Closed Lost,333253,2024-08-23,APAC,Highly satisfied customer
+OPP-1369,Salesforce,Bob Patel,Mobile Platform,Discovery,353335,2024-10-15,Europe,"Deal at risk, issues raised"
+OPP-1370,Zoom,Emma Johnson,Enterprise Suite,Proposal,291742,2024-12-14,APAC,"Great momentum, client excited"
+OPP-1371,Databricks,David Kim,Pro License,Qualification,307944,2024-11-30,LATAM,Disappointed with delays
+OPP-1372,Datadog,David Kim,Integration API,Closed Won,359960,2024-09-19,LATAM,Amazing opportunity ahead
+OPP-1373,Databricks,Bob Patel,Integration API,Negotiation,294013,2024-09-29,APAC,Outstanding results delivered
+OPP-1374,Oracle,Grace Taylor,Security Add-on,Closed Lost,492421,2024-02-24,APAC,Negative feedback received
+OPP-1375,Adobe,David Kim,Pro License,Proposal,248458,2024-11-07,North America,Amazing opportunity ahead
+OPP-1376,Datadog,Carol Smith,Pro License,Negotiation,185946,2024-02-04,LATAM,Thrilled with the demo
+OPP-1377,Palantir,Carol Smith,Enterprise Suite,Closed Won,63092,2024-07-19,APAC,Frustrated with timeline
+OPP-1378,Microsoft,David Kim,Starter Pack,Proposal,13977,2024-09-17,Europe,Amazing opportunity ahead
+OPP-1379,Confluent,Henry Brown,Cloud Storage,Closed Won,267319,2024-05-01,North America,Concerned about pricing
+OPP-1380,MongoDB,Emma Johnson,Pro License,Closed Lost,85062,2024-07-05,North America,Fantastic collaboration
+OPP-1381,Snowflake,Emma Johnson,Starter Pack,Proposal,242320,2024-12-27,Europe,Highly satisfied customer
+OPP-1382,Oracle,Emma Johnson,Integration API,Discovery,189623,2024-07-28,North America,"Struggling to close, client hesitant"
+OPP-1383,Confluent,Emma Johnson,Security Add-on,Proposal,264994,2024-11-27,APAC,Disappointed with delays
+OPP-1384,Twilio,Emma Johnson,Security Add-on,Discovery,257206,2024-11-22,North America,Negative feedback received
+OPP-1385,Snowflake,Carol Smith,Starter Pack,Proposal,165392,2024-10-07,North America,Highly satisfied customer
+OPP-1386,HubSpot,Emma Johnson,Analytics Module,Proposal,453038,2024-09-18,North America,Thrilled with the demo
+OPP-1387,Adobe,Henry Brown,Analytics Module,Closed Won,87057,2024-04-05,LATAM,Outstanding results delivered
+OPP-1388,HubSpot,Emma Johnson,Starter Pack,Proposal,198435,2024-04-02,LATAM,Disappointed with delays
+OPP-1389,ServiceNow,Emma Johnson,Starter Pack,Proposal,37532,2024-12-02,Europe,Highly satisfied customer
+OPP-1390,MongoDB,Carol Smith,Pro License,Closed Lost,115698,2024-04-05,Europe,Disappointed with delays
+OPP-1391,Oracle,Henry Brown,Cloud Storage,Negotiation,437187,2024-01-07,LATAM,"Struggling to close, client hesitant"
+OPP-1392,Datadog,Grace Taylor,Pro License,Closed Lost,149461,2024-05-16,APAC,Amazing opportunity ahead
+OPP-1393,Snowflake,Emma Johnson,Analytics Module,Negotiation,465203,2024-10-20,Europe,"Deal at risk, issues raised"
+OPP-1394,Twilio,Grace Taylor,Cloud Storage,Discovery,311798,2024-01-18,North America,"Deal at risk, issues raised"
+OPP-1395,MongoDB,David Kim,Integration API,Proposal,221387,2024-12-02,LATAM,Poor communication so far
+OPP-1396,SAP,Carol Smith,Mobile Platform,Proposal,30826,2024-09-09,APAC,Frustrated with timeline
+OPP-1397,Zoom,David Kim,Cloud Storage,Closed Won,457100,2024-06-06,APAC,Negative feedback received
+OPP-1398,Elastic,David Kim,Analytics Module,Closed Lost,135997,2024-03-03,Europe,Poor communication so far
+OPP-1399,SAP,Bob Patel,Mobile Platform,Proposal,299948,2024-06-12,Europe,Poor communication so far
+OPP-1400,Microsoft,Alice Chen,Pro License,Closed Won,216001,2024-04-01,North America,"Great momentum, client excited"
+OPP-1401,Snowflake,Frank Liu,Enterprise Suite,Proposal,478414,2024-01-11,Europe,Highly satisfied customer
+OPP-1402,Zendesk,Alice Chen,Enterprise Suite,Closed Won,373897,2024-03-05,APAC,"Excellent partnership, very happy with progress"
+OPP-1403,Slack,Carol Smith,Enterprise Suite,Proposal,383622,2024-09-15,APAC,"Excellent partnership, very happy with progress"
+OPP-1404,SAP,David Kim,Pro License,Closed Won,217063,2024-02-25,LATAM,Poor communication so far
+OPP-1405,Slack,Emma Johnson,Analytics Module,Closed Lost,73954,2024-05-28,APAC,Frustrated with timeline
+OPP-1406,HubSpot,Bob Patel,Starter Pack,Proposal,203389,2024-02-05,Europe,"Struggling to close, client hesitant"
+OPP-1407,Twilio,Alice Chen,Analytics Module,Negotiation,351490,2024-01-04,North America,"Struggling to close, client hesitant"
+OPP-1408,Slack,Bob Patel,Mobile Platform,Proposal,105972,2024-08-02,APAC,"Deal at risk, issues raised"
+OPP-1409,Databricks,David Kim,Integration API,Discovery,411370,2024-11-13,North America,"Great momentum, client excited"
+OPP-1410,SAP,Emma Johnson,Analytics Module,Negotiation,89850,2024-08-12,Europe,Fantastic collaboration
+OPP-1411,SAP,Frank Liu,Mobile Platform,Qualification,224818,2024-05-28,Europe,"Deal at risk, issues raised"
+OPP-1412,Databricks,David Kim,Pro License,Closed Won,152782,2024-07-05,North America,Thrilled with the demo
+OPP-1413,Oracle,David Kim,Security Add-on,Closed Lost,163832,2024-07-19,LATAM,Poor communication so far
+OPP-1414,Microsoft,Carol Smith,Pro License,Discovery,406368,2024-09-27,Europe,Fantastic collaboration
+OPP-1415,Microsoft,Grace Taylor,Mobile Platform,Proposal,428705,2024-12-25,APAC,Negative feedback received
+OPP-1416,Elastic,Bob Patel,Starter Pack,Negotiation,226491,2024-11-22,APAC,"Deal at risk, issues raised"
+OPP-1417,Stripe,Carol Smith,Mobile Platform,Negotiation,204182,2024-01-22,North America,Strong interest shown
+OPP-1418,HubSpot,Alice Chen,Integration API,Discovery,89381,2024-08-26,Europe,Thrilled with the demo
+OPP-1419,Microsoft,Carol Smith,Security Add-on,Closed Lost,335866,2024-06-07,North America,Frustrated with timeline
+OPP-1420,Elastic,Alice Chen,Security Add-on,Discovery,430953,2024-08-21,North America,Negative feedback received
+OPP-1421,Palantir,Grace Taylor,Starter Pack,Closed Won,43794,2024-07-02,LATAM,Amazing opportunity ahead
+OPP-1422,Zendesk,Emma Johnson,Cloud Storage,Discovery,466726,2024-10-23,North America,Negative feedback received
+OPP-1423,Workday,David Kim,Starter Pack,Negotiation,134072,2024-11-27,LATAM,Negative feedback received
+OPP-1424,Microsoft,Henry Brown,Integration API,Discovery,451835,2024-01-28,APAC,Outstanding results delivered
+OPP-1425,Adobe,Alice Chen,Pro License,Negotiation,123222,2024-07-09,APAC,Amazing opportunity ahead
+OPP-1426,Snowflake,Emma Johnson,Integration API,Negotiation,437272,2024-04-18,North America,"Great momentum, client excited"
+OPP-1427,Snowflake,David Kim,Mobile Platform,Proposal,132866,2024-04-19,Europe,Disappointed with delays
+OPP-1428,Confluent,Bob Patel,Analytics Module,Qualification,229416,2024-04-01,Europe,Amazing opportunity ahead
+OPP-1429,Stripe,Alice Chen,Integration API,Negotiation,299667,2024-12-18,APAC,Frustrated with timeline
+OPP-1430,Zendesk,Frank Liu,Cloud Storage,Negotiation,358735,2024-03-25,North America,"Excellent partnership, very happy with progress"
+OPP-1431,MongoDB,David Kim,Enterprise Suite,Qualification,258497,2024-08-30,APAC,Highly satisfied customer
+OPP-1432,Databricks,Henry Brown,Analytics Module,Negotiation,266869,2024-05-08,APAC,"Struggling to close, client hesitant"
+OPP-1433,Stripe,Carol Smith,Starter Pack,Qualification,100799,2024-06-02,APAC,Amazing opportunity ahead
+OPP-1434,Datadog,Emma Johnson,Pro License,Discovery,228484,2024-07-27,North America,Concerned about pricing
+OPP-1435,SAP,Bob Patel,Mobile Platform,Negotiation,32531,2024-02-17,APAC,Poor communication so far
+OPP-1436,Microsoft,Grace Taylor,Integration API,Negotiation,426275,2024-06-28,Europe,Concerned about pricing
+OPP-1437,Zendesk,Carol Smith,Enterprise Suite,Proposal,311772,2024-07-10,APAC,"Deal at risk, issues raised"
+OPP-1438,Workday,Frank Liu,Integration API,Proposal,253028,2024-10-11,North America,"Deal at risk, issues raised"
+OPP-1439,ServiceNow,Emma Johnson,Mobile Platform,Closed Won,287024,2024-10-18,North America,"Excellent partnership, very happy with progress"
+OPP-1440,ServiceNow,Emma Johnson,Integration API,Discovery,304970,2024-08-21,North America,Amazing opportunity ahead
+OPP-1441,Salesforce,Grace Taylor,Integration API,Qualification,487256,2024-05-19,Europe,Thrilled with the demo
+OPP-1442,Datadog,Alice Chen,Mobile Platform,Discovery,427663,2024-06-06,LATAM,Thrilled with the demo
+OPP-1443,Zoom,Emma Johnson,Starter Pack,Closed Won,427156,2024-11-09,Europe,Highly satisfied customer
+OPP-1444,Zendesk,Bob Patel,Enterprise Suite,Negotiation,385912,2024-05-06,North America,"Great momentum, client excited"
+OPP-1445,Elastic,Bob Patel,Cloud Storage,Qualification,410166,2024-01-25,LATAM,Negative feedback received
+OPP-1446,Zoom,Alice Chen,Enterprise Suite,Qualification,405572,2024-06-27,Europe,Poor communication so far
+OPP-1447,Salesforce,Emma Johnson,Pro License,Negotiation,303247,2024-01-09,Europe,Negative feedback received
+OPP-1448,Zoom,Emma Johnson,Security Add-on,Closed Lost,77911,2024-01-02,LATAM,Poor communication so far
+OPP-1449,Oracle,Carol Smith,Enterprise Suite,Closed Won,265339,2024-09-17,LATAM,Fantastic collaboration
+OPP-1450,SAP,Emma Johnson,Mobile Platform,Negotiation,441655,2024-08-21,Europe,Outstanding results delivered
+OPP-1451,Elastic,Bob Patel,Pro License,Negotiation,188267,2024-04-23,Europe,Negative feedback received
+OPP-1452,Zoom,Bob Patel,Pro License,Closed Lost,448567,2024-03-19,Europe,Strong interest shown
+OPP-1453,Databricks,Bob Patel,Enterprise Suite,Discovery,136500,2024-12-28,APAC,Strong interest shown
+OPP-1454,MongoDB,Grace Taylor,Integration API,Negotiation,112088,2024-01-18,Europe,Concerned about pricing
+OPP-1455,Salesforce,Alice Chen,Security Add-on,Discovery,21326,2024-06-03,APAC,Amazing opportunity ahead
+OPP-1456,Snowflake,Grace Taylor,Pro License,Qualification,378651,2024-11-05,APAC,Negative feedback received
+OPP-1457,Palantir,David Kim,Analytics Module,Negotiation,65962,2024-06-17,North America,Outstanding results delivered
+OPP-1458,Stripe,Grace Taylor,Starter Pack,Proposal,376861,2024-03-14,LATAM,Disappointed with delays
+OPP-1459,Confluent,Alice Chen,Enterprise Suite,Proposal,42594,2024-02-24,North America,Negative feedback received
+OPP-1460,Elastic,Henry Brown,Mobile Platform,Discovery,269986,2024-10-09,Europe,Amazing opportunity ahead
+OPP-1461,SAP,David Kim,Analytics Module,Negotiation,358676,2024-01-04,LATAM,Concerned about pricing
+OPP-1462,ServiceNow,Frank Liu,Security Add-on,Closed Won,94129,2024-06-10,Europe,Frustrated with timeline
+OPP-1463,Databricks,Grace Taylor,Integration API,Discovery,55056,2024-12-01,North America,Poor communication so far
+OPP-1464,Palantir,Carol Smith,Integration API,Qualification,402677,2024-09-23,APAC,Highly satisfied customer
+OPP-1465,Snowflake,Henry Brown,Mobile Platform,Proposal,202082,2024-07-25,LATAM,"Excellent partnership, very happy with progress"
+OPP-1466,Slack,Bob Patel,Enterprise Suite,Discovery,491104,2024-07-02,APAC,"Struggling to close, client hesitant"
+OPP-1467,MongoDB,Grace Taylor,Analytics Module,Proposal,287664,2024-03-17,APAC,"Great momentum, client excited"
+OPP-1468,Oracle,Bob Patel,Starter Pack,Closed Won,267768,2024-04-21,APAC,Thrilled with the demo
+OPP-1469,Salesforce,Henry Brown,Security Add-on,Proposal,42012,2024-10-29,North America,Fantastic collaboration
+OPP-1470,Salesforce,Alice Chen,Integration API,Proposal,71233,2024-02-04,APAC,Poor communication so far
+OPP-1471,Salesforce,Carol Smith,Cloud Storage,Discovery,313407,2024-08-20,LATAM,Poor communication so far
+OPP-1472,Adobe,Emma Johnson,Starter Pack,Proposal,417448,2024-04-11,LATAM,Disappointed with delays
+OPP-1473,Stripe,Henry Brown,Analytics Module,Proposal,330618,2024-01-25,Europe,Thrilled with the demo
+OPP-1474,Workday,Carol Smith,Cloud Storage,Qualification,115891,2024-08-15,Europe,Disappointed with delays
+OPP-1475,Datadog,Henry Brown,Starter Pack,Discovery,475442,2024-07-04,LATAM,"Great momentum, client excited"
+OPP-1476,HubSpot,David Kim,Cloud Storage,Closed Won,425415,2024-10-27,North America,Concerned about pricing
+OPP-1477,Databricks,Bob Patel,Cloud Storage,Closed Won,193319,2024-10-01,Europe,Disappointed with delays
+OPP-1478,Adobe,Grace Taylor,Cloud Storage,Closed Won,397934,2024-06-29,LATAM,Amazing opportunity ahead
+OPP-1479,Adobe,Carol Smith,Cloud Storage,Negotiation,465672,2024-06-16,APAC,Fantastic collaboration
+OPP-1480,Salesforce,Grace Taylor,Security Add-on,Discovery,105197,2024-11-19,North America,Poor communication so far
+OPP-1481,SAP,David Kim,Starter Pack,Discovery,254515,2024-04-24,LATAM,"Great momentum, client excited"
+OPP-1482,Oracle,David Kim,Integration API,Proposal,495200,2024-07-01,LATAM,Amazing opportunity ahead
+OPP-1483,HubSpot,Carol Smith,Starter Pack,Closed Lost,177391,2024-04-29,North America,Disappointed with delays
+OPP-1484,Slack,David Kim,Security Add-on,Negotiation,497172,2024-10-23,LATAM,Frustrated with timeline
+OPP-1485,Adobe,David Kim,Starter Pack,Qualification,348165,2024-10-04,LATAM,Poor communication so far
+OPP-1486,Salesforce,Frank Liu,Security Add-on,Closed Won,41352,2024-04-27,Europe,Outstanding results delivered
+OPP-1487,Zendesk,Carol Smith,Enterprise Suite,Qualification,466691,2024-02-10,Europe,Thrilled with the demo
+OPP-1488,MongoDB,Emma Johnson,Security Add-on,Negotiation,300329,2024-06-02,Europe,Outstanding results delivered
+OPP-1489,Databricks,Bob Patel,Security Add-on,Closed Lost,242272,2024-03-02,LATAM,Poor communication so far
+OPP-1490,Workday,Frank Liu,Analytics Module,Proposal,388953,2024-04-20,LATAM,"Struggling to close, client hesitant"
+OPP-1491,SAP,Bob Patel,Security Add-on,Closed Lost,357921,2024-10-01,North America,Negative feedback received
+OPP-1492,Databricks,Grace Taylor,Starter Pack,Qualification,16635,2024-10-04,Europe,Fantastic collaboration
+OPP-1493,MongoDB,Emma Johnson,Security Add-on,Negotiation,282457,2024-07-12,Europe,Strong interest shown
+OPP-1494,HubSpot,Bob Patel,Mobile Platform,Proposal,359357,2024-04-08,APAC,Highly satisfied customer
+OPP-1495,HubSpot,Bob Patel,Security Add-on,Negotiation,359589,2024-05-23,LATAM,Outstanding results delivered
+OPP-1496,Salesforce,Bob Patel,Mobile Platform,Qualification,256372,2024-11-29,APAC,Highly satisfied customer
+OPP-1497,Zoom,Alice Chen,Cloud Storage,Closed Won,368537,2024-08-01,APAC,"Great momentum, client excited"
+OPP-1498,Stripe,Emma Johnson,Integration API,Closed Lost,89104,2024-08-09,LATAM,Outstanding results delivered
+OPP-1499,HubSpot,Frank Liu,Analytics Module,Qualification,359199,2024-06-25,Europe,Disappointed with delays
+OPP-1500,Confluent,Emma Johnson,Analytics Module,Closed Lost,213407,2024-10-24,Europe,Disappointed with delays
+OPP-1501,Snowflake,Emma Johnson,Analytics Module,Closed Won,332204,2024-10-04,LATAM,Disappointed with delays
+OPP-1502,Workday,David Kim,Enterprise Suite,Closed Lost,498951,2024-10-17,LATAM,"Excellent partnership, very happy with progress"
+OPP-1503,Workday,Emma Johnson,Enterprise Suite,Closed Won,255469,2024-05-29,LATAM,Thrilled with the demo
+OPP-1504,Twilio,Emma Johnson,Analytics Module,Qualification,229548,2024-01-26,APAC,Outstanding results delivered
+OPP-1505,ServiceNow,Frank Liu,Pro License,Discovery,215836,2024-01-07,Europe,Disappointed with delays
+OPP-1506,Datadog,Frank Liu,Analytics Module,Qualification,228673,2024-03-05,APAC,Highly satisfied customer
+OPP-1507,Elastic,Alice Chen,Security Add-on,Closed Lost,315254,2024-10-23,North America,"Struggling to close, client hesitant"
+OPP-1508,Snowflake,Carol Smith,Analytics Module,Discovery,284594,2024-10-06,APAC,Thrilled with the demo
+OPP-1509,Zendesk,Carol Smith,Security Add-on,Negotiation,364929,2024-10-03,Europe,Disappointed with delays
+OPP-1510,ServiceNow,David Kim,Integration API,Negotiation,214778,2024-02-08,LATAM,Poor communication so far
+OPP-1511,Salesforce,David Kim,Pro License,Closed Won,43200,2024-02-14,Europe,"Struggling to close, client hesitant"
+OPP-1512,Palantir,Grace Taylor,Pro License,Discovery,465836,2024-07-01,Europe,Poor communication so far
+OPP-1513,Oracle,Grace Taylor,Mobile Platform,Qualification,414850,2024-11-09,APAC,"Excellent partnership, very happy with progress"
+OPP-1514,Microsoft,Carol Smith,Pro License,Qualification,287039,2024-02-20,APAC,Concerned about pricing
+OPP-1515,MongoDB,Emma Johnson,Cloud Storage,Negotiation,488726,2024-05-04,APAC,"Great momentum, client excited"
+OPP-1516,Confluent,Bob Patel,Integration API,Closed Won,213236,2024-03-13,Europe,"Deal at risk, issues raised"
+OPP-1517,Datadog,Alice Chen,Mobile Platform,Closed Won,115213,2024-01-11,LATAM,Highly satisfied customer
+OPP-1518,Slack,Carol Smith,Enterprise Suite,Negotiation,92132,2024-02-21,APAC,Negative feedback received
+OPP-1519,ServiceNow,Grace Taylor,Cloud Storage,Discovery,184126,2024-01-01,Europe,Poor communication so far
+OPP-1520,Salesforce,David Kim,Enterprise Suite,Closed Won,218408,2024-12-09,Europe,Disappointed with delays
+OPP-1521,Elastic,Carol Smith,Enterprise Suite,Closed Lost,243089,2024-05-13,Europe,"Great momentum, client excited"
+OPP-1522,Stripe,Henry Brown,Integration API,Proposal,179686,2024-03-25,APAC,Concerned about pricing
+OPP-1523,HubSpot,David Kim,Security Add-on,Negotiation,437769,2024-10-31,Europe,"Deal at risk, issues raised"
+OPP-1524,MongoDB,Bob Patel,Enterprise Suite,Qualification,233424,2024-08-17,Europe,"Great momentum, client excited"
+OPP-1525,Zendesk,Grace Taylor,Pro License,Closed Won,242692,2024-04-24,APAC,Frustrated with timeline
+OPP-1526,Datadog,Emma Johnson,Pro License,Closed Won,379627,2024-08-03,Europe,"Deal at risk, issues raised"
+OPP-1527,Workday,Bob Patel,Cloud Storage,Discovery,386055,2024-07-25,LATAM,Outstanding results delivered
+OPP-1528,Databricks,Grace Taylor,Mobile Platform,Negotiation,399024,2024-02-09,North America,Fantastic collaboration
+OPP-1529,Confluent,Grace Taylor,Enterprise Suite,Closed Won,169145,2024-06-25,Europe,Amazing opportunity ahead
+OPP-1530,Oracle,Henry Brown,Mobile Platform,Closed Won,408919,2024-06-28,LATAM,Disappointed with delays
+OPP-1531,Salesforce,David Kim,Mobile Platform,Negotiation,162891,2024-04-21,LATAM,Amazing opportunity ahead
+OPP-1532,Stripe,Alice Chen,Integration API,Negotiation,450268,2024-04-25,APAC,Strong interest shown
+OPP-1533,Zoom,Emma Johnson,Integration API,Proposal,163281,2024-11-26,Europe,Negative feedback received
+OPP-1534,MongoDB,Alice Chen,Analytics Module,Discovery,482716,2024-03-29,LATAM,Fantastic collaboration
+OPP-1535,Twilio,Henry Brown,Integration API,Negotiation,427178,2024-12-13,LATAM,Poor communication so far
+OPP-1536,Snowflake,Grace Taylor,Mobile Platform,Proposal,390222,2024-12-17,LATAM,Amazing opportunity ahead
+OPP-1537,Stripe,Alice Chen,Analytics Module,Qualification,250523,2024-04-17,APAC,Frustrated with timeline
+OPP-1538,MongoDB,Grace Taylor,Starter Pack,Proposal,150684,2024-12-13,APAC,Negative feedback received
+OPP-1539,Adobe,Carol Smith,Analytics Module,Qualification,298393,2024-12-29,North America,"Deal at risk, issues raised"
+OPP-1540,Slack,Alice Chen,Security Add-on,Closed Lost,144635,2024-01-11,Europe,"Deal at risk, issues raised"
+OPP-1541,SAP,Bob Patel,Integration API,Closed Won,37303,2024-11-10,Europe,Thrilled with the demo
+OPP-1542,Salesforce,Emma Johnson,Analytics Module,Discovery,358842,2024-09-07,LATAM,"Struggling to close, client hesitant"
+OPP-1543,Palantir,Emma Johnson,Cloud Storage,Closed Lost,377918,2024-10-11,Europe,"Great momentum, client excited"
+OPP-1544,Confluent,Bob Patel,Cloud Storage,Discovery,221324,2024-06-10,APAC,"Excellent partnership, very happy with progress"
+OPP-1545,ServiceNow,Frank Liu,Starter Pack,Closed Lost,469719,2024-08-14,LATAM,"Struggling to close, client hesitant"
+OPP-1546,MongoDB,Alice Chen,Integration API,Qualification,85022,2024-04-27,North America,Fantastic collaboration
+OPP-1547,Confluent,Bob Patel,Analytics Module,Closed Won,90861,2024-04-23,Europe,Amazing opportunity ahead
+OPP-1548,Salesforce,Henry Brown,Cloud Storage,Closed Won,215795,2024-07-16,LATAM,Frustrated with timeline
+OPP-1549,ServiceNow,Bob Patel,Enterprise Suite,Closed Won,382349,2024-12-25,LATAM,Strong interest shown
+OPP-1550,Oracle,Grace Taylor,Enterprise Suite,Discovery,97742,2024-06-20,LATAM,Fantastic collaboration
+OPP-1551,Palantir,Frank Liu,Enterprise Suite,Proposal,240565,2024-12-01,Europe,Outstanding results delivered
+OPP-1552,Microsoft,David Kim,Integration API,Qualification,340496,2024-11-28,APAC,Disappointed with delays
+OPP-1553,Datadog,Henry Brown,Starter Pack,Qualification,422015,2024-11-09,Europe,Fantastic collaboration
+OPP-1554,Twilio,Grace Taylor,Enterprise Suite,Closed Lost,305492,2024-06-06,Europe,Outstanding results delivered
+OPP-1555,Oracle,Carol Smith,Mobile Platform,Discovery,163823,2024-10-16,APAC,"Great momentum, client excited"
+OPP-1556,Confluent,Carol Smith,Cloud Storage,Negotiation,262011,2024-10-04,LATAM,Frustrated with timeline
+OPP-1557,Stripe,Grace Taylor,Enterprise Suite,Closed Lost,449879,2024-12-11,APAC,Amazing opportunity ahead
+OPP-1558,Adobe,Henry Brown,Security Add-on,Closed Lost,358696,2024-02-21,North America,Outstanding results delivered
+OPP-1559,Zoom,Carol Smith,Cloud Storage,Proposal,202282,2024-07-29,APAC,Poor communication so far
+OPP-1560,Palantir,Bob Patel,Enterprise Suite,Qualification,207810,2024-09-29,North America,Fantastic collaboration
+OPP-1561,Zendesk,David Kim,Security Add-on,Negotiation,186245,2024-10-20,LATAM,Outstanding results delivered
+OPP-1562,Salesforce,Emma Johnson,Starter Pack,Closed Lost,358138,2024-07-13,Europe,"Deal at risk, issues raised"
+OPP-1563,SAP,Bob Patel,Enterprise Suite,Closed Lost,44290,2024-10-10,APAC,Poor communication so far
+OPP-1564,Zendesk,Alice Chen,Integration API,Discovery,209856,2024-04-24,APAC,Amazing opportunity ahead
+OPP-1565,SAP,Bob Patel,Mobile Platform,Discovery,245263,2024-05-24,LATAM,Amazing opportunity ahead
+OPP-1566,Palantir,Frank Liu,Security Add-on,Negotiation,485520,2024-03-01,LATAM,Disappointed with delays
+OPP-1567,Stripe,Frank Liu,Analytics Module,Closed Won,261493,2024-02-08,North America,Negative feedback received
+OPP-1568,Workday,Grace Taylor,Security Add-on,Proposal,318004,2024-01-05,LATAM,Amazing opportunity ahead
+OPP-1569,MongoDB,Emma Johnson,Starter Pack,Proposal,220376,2024-09-05,North America,"Deal at risk, issues raised"
+OPP-1570,Oracle,Grace Taylor,Pro License,Closed Lost,30670,2024-12-25,LATAM,Thrilled with the demo
+OPP-1571,HubSpot,David Kim,Mobile Platform,Negotiation,440631,2024-11-05,North America,"Struggling to close, client hesitant"
+OPP-1572,Zoom,Grace Taylor,Pro License,Closed Lost,257608,2024-08-22,Europe,Disappointed with delays
+OPP-1573,Elastic,Frank Liu,Analytics Module,Closed Lost,56001,2024-05-01,LATAM,Frustrated with timeline
+OPP-1574,SAP,Alice Chen,Integration API,Proposal,365011,2024-02-11,APAC,Outstanding results delivered
+OPP-1575,Datadog,Bob Patel,Pro License,Qualification,148078,2024-04-09,APAC,"Deal at risk, issues raised"
+OPP-1576,SAP,David Kim,Cloud Storage,Proposal,437517,2024-12-19,Europe,Strong interest shown
+OPP-1577,Zoom,Henry Brown,Mobile Platform,Qualification,307604,2024-11-20,LATAM,"Deal at risk, issues raised"
+OPP-1578,Oracle,Henry Brown,Analytics Module,Closed Lost,421346,2024-05-24,APAC,Thrilled with the demo
+OPP-1579,Workday,Alice Chen,Pro License,Closed Won,478345,2024-04-24,APAC,Amazing opportunity ahead
+OPP-1580,Zoom,Henry Brown,Mobile Platform,Qualification,369156,2024-07-28,North America,Amazing opportunity ahead
+OPP-1581,Elastic,Henry Brown,Enterprise Suite,Negotiation,158706,2024-04-22,APAC,Disappointed with delays
+OPP-1582,Microsoft,Henry Brown,Enterprise Suite,Closed Lost,261628,2024-11-17,North America,"Great momentum, client excited"
+OPP-1583,Snowflake,Grace Taylor,Enterprise Suite,Proposal,71903,2024-04-21,Europe,Frustrated with timeline
+OPP-1584,Elastic,Henry Brown,Enterprise Suite,Discovery,301772,2024-02-22,APAC,"Excellent partnership, very happy with progress"
+OPP-1585,Slack,Carol Smith,Mobile Platform,Closed Won,99594,2024-09-30,Europe,Thrilled with the demo
+OPP-1586,Microsoft,Bob Patel,Cloud Storage,Discovery,125094,2024-04-30,APAC,Poor communication so far
+OPP-1587,Palantir,Frank Liu,Cloud Storage,Proposal,436931,2024-08-25,North America,Concerned about pricing
+OPP-1588,MongoDB,Frank Liu,Cloud Storage,Closed Won,232567,2024-02-01,North America,Thrilled with the demo
+OPP-1589,Confluent,David Kim,Mobile Platform,Proposal,301991,2024-11-17,APAC,"Struggling to close, client hesitant"
+OPP-1590,SAP,Grace Taylor,Cloud Storage,Closed Won,391835,2024-05-08,Europe,Frustrated with timeline
+OPP-1591,Zendesk,Henry Brown,Starter Pack,Closed Won,339625,2024-03-12,LATAM,Outstanding results delivered
+OPP-1592,Twilio,Emma Johnson,Security Add-on,Qualification,146263,2024-10-31,Europe,Strong interest shown
+OPP-1593,Workday,Alice Chen,Analytics Module,Closed Lost,417857,2024-04-13,LATAM,Fantastic collaboration
+OPP-1594,Microsoft,Emma Johnson,Cloud Storage,Discovery,73769,2024-11-21,APAC,Disappointed with delays
+OPP-1595,Oracle,Emma Johnson,Integration API,Negotiation,271907,2024-08-15,LATAM,"Excellent partnership, very happy with progress"
+OPP-1596,SAP,Emma Johnson,Starter Pack,Discovery,396113,2024-01-29,Europe,Highly satisfied customer
+OPP-1597,Elastic,Alice Chen,Mobile Platform,Qualification,369425,2024-08-12,APAC,Amazing opportunity ahead
+OPP-1598,Twilio,Henry Brown,Mobile Platform,Discovery,394289,2024-07-17,North America,Highly satisfied customer
+OPP-1599,Datadog,Emma Johnson,Mobile Platform,Qualification,126167,2024-10-10,Europe,Negative feedback received
+OPP-1600,HubSpot,Bob Patel,Mobile Platform,Closed Won,347793,2024-10-02,APAC,Disappointed with delays
+OPP-1601,MongoDB,Emma Johnson,Analytics Module,Discovery,88636,2024-12-04,LATAM,Thrilled with the demo
+OPP-1602,Slack,Emma Johnson,Mobile Platform,Closed Lost,77552,2024-08-02,North America,Fantastic collaboration
+OPP-1603,Palantir,Alice Chen,Enterprise Suite,Qualification,443981,2024-05-05,LATAM,Concerned about pricing
+OPP-1604,Elastic,Alice Chen,Enterprise Suite,Proposal,359682,2024-07-02,Europe,"Great momentum, client excited"
+OPP-1605,Elastic,Emma Johnson,Integration API,Qualification,116122,2024-01-07,Europe,Disappointed with delays
+OPP-1606,Zoom,Henry Brown,Pro License,Proposal,317938,2024-04-26,APAC,Frustrated with timeline
+OPP-1607,Adobe,Bob Patel,Mobile Platform,Closed Lost,255283,2024-09-21,APAC,"Great momentum, client excited"
+OPP-1608,Stripe,Frank Liu,Starter Pack,Negotiation,472609,2024-03-16,APAC,Frustrated with timeline
+OPP-1609,Confluent,Frank Liu,Starter Pack,Closed Won,379152,2024-10-14,APAC,Outstanding results delivered
+OPP-1610,Confluent,Bob Patel,Security Add-on,Qualification,15679,2024-04-18,Europe,Fantastic collaboration
+OPP-1611,Snowflake,Frank Liu,Integration API,Closed Won,494999,2024-12-01,Europe,Thrilled with the demo
+OPP-1612,Stripe,Bob Patel,Analytics Module,Discovery,402200,2024-08-02,Europe,Frustrated with timeline
+OPP-1613,Stripe,Alice Chen,Security Add-on,Closed Won,448957,2024-01-22,North America,Negative feedback received
+OPP-1614,Adobe,Alice Chen,Security Add-on,Closed Lost,169654,2024-02-16,North America,Outstanding results delivered
+OPP-1615,Zendesk,Grace Taylor,Cloud Storage,Negotiation,456589,2024-12-18,LATAM,"Great momentum, client excited"
+OPP-1616,Zoom,Henry Brown,Cloud Storage,Closed Lost,32103,2024-11-13,LATAM,Poor communication so far
+OPP-1617,ServiceNow,Henry Brown,Pro License,Qualification,248363,2024-12-03,Europe,Frustrated with timeline
+OPP-1618,SAP,Henry Brown,Pro License,Discovery,494557,2024-11-13,North America,Negative feedback received
+OPP-1619,MongoDB,Grace Taylor,Pro License,Closed Lost,296667,2024-10-08,LATAM,"Struggling to close, client hesitant"
+OPP-1620,Zoom,Henry Brown,Integration API,Discovery,110197,2024-02-06,North America,"Excellent partnership, very happy with progress"
+OPP-1621,Stripe,Bob Patel,Starter Pack,Discovery,247701,2024-05-13,Europe,"Struggling to close, client hesitant"
+OPP-1622,Workday,David Kim,Cloud Storage,Negotiation,225300,2024-03-18,Europe,Poor communication so far
+OPP-1623,Snowflake,Bob Patel,Enterprise Suite,Proposal,187072,2024-09-14,APAC,"Great momentum, client excited"
+OPP-1624,Microsoft,Alice Chen,Enterprise Suite,Qualification,371618,2024-05-22,North America,"Great momentum, client excited"
+OPP-1625,Databricks,Alice Chen,Pro License,Discovery,63601,2024-12-12,APAC,Amazing opportunity ahead
+OPP-1626,Stripe,Henry Brown,Starter Pack,Negotiation,372951,2024-11-24,LATAM,Concerned about pricing
+OPP-1627,Zendesk,Bob Patel,Starter Pack,Closed Lost,475159,2024-07-23,APAC,"Deal at risk, issues raised"
+OPP-1628,Zoom,Carol Smith,Cloud Storage,Qualification,37653,2024-12-02,Europe,Outstanding results delivered
+OPP-1629,Elastic,Grace Taylor,Mobile Platform,Closed Won,338955,2024-05-29,North America,"Great momentum, client excited"
+OPP-1630,Adobe,Frank Liu,Enterprise Suite,Discovery,477210,2024-06-27,APAC,"Excellent partnership, very happy with progress"
+OPP-1631,Elastic,Henry Brown,Cloud Storage,Closed Won,99402,2024-09-14,LATAM,"Great momentum, client excited"
+OPP-1632,Databricks,Henry Brown,Starter Pack,Proposal,248445,2024-04-19,APAC,Amazing opportunity ahead
+OPP-1633,Zendesk,David Kim,Security Add-on,Qualification,347190,2024-05-04,APAC,Concerned about pricing
+OPP-1634,SAP,Henry Brown,Cloud Storage,Qualification,113028,2024-10-13,Europe,Fantastic collaboration
+OPP-1635,Workday,Grace Taylor,Integration API,Negotiation,33304,2024-08-25,APAC,Outstanding results delivered
+OPP-1636,Snowflake,Grace Taylor,Pro License,Discovery,346696,2024-08-21,APAC,Outstanding results delivered
+OPP-1637,Stripe,Carol Smith,Security Add-on,Closed Lost,76368,2024-11-22,North America,Fantastic collaboration
+OPP-1638,ServiceNow,Alice Chen,Integration API,Closed Won,128859,2024-03-11,Europe,Frustrated with timeline
+OPP-1639,Datadog,Grace Taylor,Pro License,Closed Won,335205,2024-04-22,APAC,Thrilled with the demo
+OPP-1640,Microsoft,Carol Smith,Enterprise Suite,Proposal,13558,2024-11-05,Europe,"Struggling to close, client hesitant"
+OPP-1641,Slack,Frank Liu,Enterprise Suite,Qualification,36510,2024-05-12,APAC,"Struggling to close, client hesitant"
+OPP-1642,MongoDB,Carol Smith,Integration API,Negotiation,470877,2024-05-06,LATAM,"Struggling to close, client hesitant"
+OPP-1643,Microsoft,Henry Brown,Security Add-on,Closed Lost,128244,2024-10-28,APAC,Negative feedback received
+OPP-1644,Oracle,Alice Chen,Analytics Module,Discovery,195033,2024-10-27,APAC,"Great momentum, client excited"
+OPP-1645,Adobe,Frank Liu,Enterprise Suite,Qualification,153146,2024-01-11,North America,Outstanding results delivered
+OPP-1646,Salesforce,Carol Smith,Mobile Platform,Qualification,221653,2024-11-04,Europe,Frustrated with timeline
+OPP-1647,Zoom,Emma Johnson,Analytics Module,Qualification,49569,2024-02-21,Europe,Highly satisfied customer
+OPP-1648,Twilio,Carol Smith,Security Add-on,Qualification,369529,2024-01-10,LATAM,Negative feedback received
+OPP-1649,Palantir,David Kim,Mobile Platform,Proposal,298570,2024-08-14,APAC,Poor communication so far
+OPP-1650,Palantir,David Kim,Cloud Storage,Closed Won,395320,2024-05-02,LATAM,"Deal at risk, issues raised"
+OPP-1651,Slack,Grace Taylor,Pro License,Proposal,202158,2024-02-18,Europe,Negative feedback received
+OPP-1652,Zendesk,Henry Brown,Pro License,Discovery,401455,2024-02-24,APAC,Outstanding results delivered
+OPP-1653,Zendesk,Alice Chen,Cloud Storage,Closed Won,28178,2024-12-21,APAC,"Excellent partnership, very happy with progress"
+OPP-1654,Adobe,Grace Taylor,Analytics Module,Discovery,144129,2024-02-29,APAC,Frustrated with timeline
+OPP-1655,SAP,Henry Brown,Analytics Module,Discovery,444908,2024-11-17,North America,Outstanding results delivered
+OPP-1656,Slack,Bob Patel,Enterprise Suite,Proposal,460687,2024-10-03,Europe,Highly satisfied customer
+OPP-1657,Stripe,Henry Brown,Integration API,Closed Won,74225,2024-06-24,Europe,"Great momentum, client excited"
+OPP-1658,Oracle,Frank Liu,Enterprise Suite,Qualification,239909,2024-09-08,LATAM,Negative feedback received
+OPP-1659,Zoom,Emma Johnson,Enterprise Suite,Closed Lost,258077,2024-02-14,Europe,Concerned about pricing
+OPP-1660,Adobe,Frank Liu,Security Add-on,Proposal,138955,2024-01-29,Europe,Poor communication so far
+OPP-1661,Oracle,David Kim,Security Add-on,Closed Won,75324,2024-04-25,Europe,Thrilled with the demo
+OPP-1662,Snowflake,David Kim,Security Add-on,Discovery,191788,2024-07-09,North America,"Deal at risk, issues raised"
+OPP-1663,Slack,Grace Taylor,Pro License,Discovery,114064,2024-04-29,North America,Thrilled with the demo
+OPP-1664,Confluent,Carol Smith,Pro License,Qualification,471181,2024-07-09,LATAM,Highly satisfied customer
+OPP-1665,Salesforce,Henry Brown,Security Add-on,Qualification,77476,2024-07-21,LATAM,Strong interest shown
+OPP-1666,Twilio,Emma Johnson,Starter Pack,Closed Won,165755,2024-07-03,APAC,"Struggling to close, client hesitant"
+OPP-1667,Databricks,Emma Johnson,Starter Pack,Closed Lost,98078,2024-09-13,Europe,"Great momentum, client excited"
+OPP-1668,MongoDB,Grace Taylor,Starter Pack,Proposal,120809,2024-02-24,Europe,"Great momentum, client excited"
+OPP-1669,Oracle,Henry Brown,Integration API,Discovery,480357,2024-01-20,APAC,Outstanding results delivered
+OPP-1670,Palantir,Alice Chen,Pro License,Closed Won,101641,2024-09-14,APAC,"Great momentum, client excited"
+OPP-1671,MongoDB,Grace Taylor,Cloud Storage,Closed Lost,369030,2024-06-11,APAC,"Excellent partnership, very happy with progress"
+OPP-1672,HubSpot,David Kim,Enterprise Suite,Proposal,343174,2024-06-02,APAC,Thrilled with the demo
+OPP-1673,MongoDB,Alice Chen,Analytics Module,Proposal,302305,2024-12-22,APAC,Concerned about pricing
+OPP-1674,Elastic,Henry Brown,Enterprise Suite,Discovery,489466,2024-03-27,APAC,Highly satisfied customer
+OPP-1675,Palantir,Henry Brown,Mobile Platform,Closed Won,142251,2024-11-13,APAC,Frustrated with timeline
+OPP-1676,Snowflake,Bob Patel,Security Add-on,Closed Won,492150,2024-07-28,APAC,Amazing opportunity ahead
+OPP-1677,Snowflake,Henry Brown,Enterprise Suite,Negotiation,183125,2024-10-18,APAC,Outstanding results delivered
+OPP-1678,Stripe,Henry Brown,Pro License,Qualification,395833,2024-05-21,LATAM,Frustrated with timeline
+OPP-1679,Slack,Alice Chen,Security Add-on,Negotiation,70359,2024-08-16,Europe,"Deal at risk, issues raised"
+OPP-1680,Adobe,Frank Liu,Cloud Storage,Discovery,227963,2024-08-07,North America,Thrilled with the demo
+OPP-1681,MongoDB,Bob Patel,Analytics Module,Closed Won,52844,2024-10-10,LATAM,"Struggling to close, client hesitant"
+OPP-1682,HubSpot,Bob Patel,Cloud Storage,Discovery,160602,2024-07-11,North America,Poor communication so far
+OPP-1683,Palantir,Henry Brown,Pro License,Discovery,193674,2024-10-19,APAC,"Great momentum, client excited"
+OPP-1684,Datadog,Carol Smith,Cloud Storage,Closed Lost,14828,2024-06-03,North America,"Excellent partnership, very happy with progress"
+OPP-1685,Databricks,Frank Liu,Integration API,Discovery,89067,2024-10-07,APAC,Outstanding results delivered
+OPP-1686,Adobe,Grace Taylor,Security Add-on,Proposal,408325,2024-05-30,LATAM,Concerned about pricing
+OPP-1687,HubSpot,Bob Patel,Pro License,Proposal,444458,2024-11-12,APAC,Amazing opportunity ahead
+OPP-1688,Zoom,Emma Johnson,Analytics Module,Negotiation,370558,2024-05-21,Europe,Negative feedback received
+OPP-1689,MongoDB,Emma Johnson,Integration API,Qualification,326025,2024-09-18,APAC,Fantastic collaboration
+OPP-1690,Salesforce,Carol Smith,Cloud Storage,Closed Lost,133615,2024-11-20,Europe,Concerned about pricing
+OPP-1691,Microsoft,Alice Chen,Pro License,Discovery,233871,2024-03-17,LATAM,"Excellent partnership, very happy with progress"
+OPP-1692,HubSpot,Henry Brown,Cloud Storage,Proposal,366893,2024-01-16,APAC,Amazing opportunity ahead
+OPP-1693,HubSpot,Grace Taylor,Cloud Storage,Negotiation,476656,2024-07-07,North America,Thrilled with the demo
+OPP-1694,SAP,Grace Taylor,Starter Pack,Discovery,99979,2024-05-24,APAC,Negative feedback received
+OPP-1695,Twilio,Grace Taylor,Integration API,Closed Lost,143066,2024-09-10,North America,Disappointed with delays
+OPP-1696,Palantir,Emma Johnson,Security Add-on,Closed Won,285272,2024-12-18,APAC,"Struggling to close, client hesitant"
+OPP-1697,Stripe,Bob Patel,Pro License,Qualification,313737,2024-12-22,Europe,Outstanding results delivered
+OPP-1698,Snowflake,Grace Taylor,Enterprise Suite,Closed Won,258793,2024-05-15,APAC,Poor communication so far
+OPP-1699,HubSpot,Alice Chen,Enterprise Suite,Closed Won,215258,2024-05-12,North America,"Great momentum, client excited"
+OPP-1700,HubSpot,Grace Taylor,Mobile Platform,Negotiation,307799,2024-04-10,APAC,Disappointed with delays
+OPP-1701,SAP,Carol Smith,Starter Pack,Closed Won,94575,2024-04-22,LATAM,Amazing opportunity ahead
+OPP-1702,Stripe,Bob Patel,Analytics Module,Negotiation,464891,2024-11-09,LATAM,Strong interest shown
+OPP-1703,Twilio,Emma Johnson,Starter Pack,Proposal,475463,2024-07-01,LATAM,"Excellent partnership, very happy with progress"
+OPP-1704,HubSpot,Emma Johnson,Integration API,Closed Lost,172129,2024-03-29,North America,"Struggling to close, client hesitant"
+OPP-1705,HubSpot,Grace Taylor,Security Add-on,Proposal,439266,2024-10-05,Europe,Outstanding results delivered
+OPP-1706,Salesforce,Henry Brown,Starter Pack,Closed Lost,192374,2024-07-29,North America,Fantastic collaboration
+OPP-1707,ServiceNow,Henry Brown,Cloud Storage,Proposal,62038,2024-05-02,North America,Frustrated with timeline
+OPP-1708,Datadog,Emma Johnson,Pro License,Closed Lost,295149,2024-10-31,Europe,"Struggling to close, client hesitant"
+OPP-1709,Databricks,Carol Smith,Pro License,Discovery,137369,2024-01-08,North America,Thrilled with the demo
+OPP-1710,Twilio,David Kim,Integration API,Closed Won,35644,2024-11-12,LATAM,Strong interest shown
+OPP-1711,Datadog,David Kim,Starter Pack,Qualification,406815,2024-02-10,APAC,Poor communication so far
+OPP-1712,Workday,Carol Smith,Analytics Module,Closed Lost,392206,2024-04-17,North America,"Struggling to close, client hesitant"
+OPP-1713,Salesforce,David Kim,Mobile Platform,Qualification,58135,2024-03-22,LATAM,Amazing opportunity ahead
+OPP-1714,Microsoft,Carol Smith,Security Add-on,Closed Won,128268,2024-10-14,Europe,Concerned about pricing
+OPP-1715,Confluent,Bob Patel,Pro License,Closed Won,382068,2024-06-25,APAC,"Great momentum, client excited"
+OPP-1716,Slack,Alice Chen,Enterprise Suite,Qualification,314426,2024-05-13,LATAM,"Deal at risk, issues raised"
+OPP-1717,Zoom,Alice Chen,Integration API,Closed Lost,376388,2024-01-16,North America,"Struggling to close, client hesitant"
+OPP-1718,Workday,David Kim,Cloud Storage,Qualification,426187,2024-05-25,LATAM,Amazing opportunity ahead
+OPP-1719,Workday,David Kim,Starter Pack,Closed Won,61798,2024-05-07,Europe,"Deal at risk, issues raised"
+OPP-1720,Twilio,Carol Smith,Pro License,Closed Won,462637,2024-11-02,North America,Strong interest shown
+OPP-1721,Elastic,Alice Chen,Starter Pack,Negotiation,50598,2024-12-03,LATAM,Poor communication so far
+OPP-1722,Adobe,Alice Chen,Integration API,Closed Lost,344846,2024-12-22,North America,"Struggling to close, client hesitant"
+OPP-1723,Adobe,Alice Chen,Starter Pack,Qualification,22521,2024-07-11,LATAM,"Deal at risk, issues raised"
+OPP-1724,Microsoft,Carol Smith,Analytics Module,Qualification,159460,2024-07-06,APAC,Disappointed with delays
+OPP-1725,Stripe,Carol Smith,Integration API,Negotiation,77720,2024-11-03,Europe,Concerned about pricing
+OPP-1726,ServiceNow,Grace Taylor,Integration API,Closed Won,404773,2024-09-10,LATAM,Concerned about pricing
+OPP-1727,Zendesk,Bob Patel,Analytics Module,Discovery,350965,2024-03-22,Europe,"Excellent partnership, very happy with progress"
+OPP-1728,Salesforce,Carol Smith,Analytics Module,Closed Lost,314685,2024-01-30,Europe,"Struggling to close, client hesitant"
+OPP-1729,Salesforce,Carol Smith,Analytics Module,Closed Lost,48550,2024-08-24,LATAM,Frustrated with timeline
+OPP-1730,ServiceNow,Bob Patel,Starter Pack,Proposal,483418,2024-03-06,North America,Highly satisfied customer
+OPP-1731,ServiceNow,Alice Chen,Integration API,Closed Lost,147439,2024-11-25,North America,"Great momentum, client excited"
+OPP-1732,Elastic,Carol Smith,Enterprise Suite,Proposal,370766,2024-05-19,North America,Disappointed with delays
+OPP-1733,MongoDB,Grace Taylor,Security Add-on,Discovery,143077,2024-11-02,APAC,Poor communication so far
+OPP-1734,Confluent,David Kim,Starter Pack,Closed Lost,35207,2024-07-24,Europe,Negative feedback received
+OPP-1735,Datadog,Alice Chen,Pro License,Qualification,84851,2024-09-14,LATAM,Strong interest shown
+OPP-1736,ServiceNow,Grace Taylor,Analytics Module,Negotiation,19113,2024-02-22,APAC,Thrilled with the demo
+OPP-1737,Zoom,David Kim,Analytics Module,Negotiation,35652,2024-01-29,Europe,Strong interest shown
+OPP-1738,Databricks,Bob Patel,Pro License,Qualification,488145,2024-12-11,Europe,Concerned about pricing
+OPP-1739,Adobe,Alice Chen,Enterprise Suite,Discovery,132525,2024-12-23,North America,Disappointed with delays
+OPP-1740,Palantir,Carol Smith,Integration API,Proposal,184937,2024-10-13,Europe,Outstanding results delivered
+OPP-1741,Oracle,Carol Smith,Pro License,Closed Lost,319798,2024-12-08,Europe,"Great momentum, client excited"
+OPP-1742,Salesforce,Frank Liu,Cloud Storage,Closed Won,435608,2024-08-01,LATAM,Poor communication so far
+OPP-1743,Oracle,Emma Johnson,Enterprise Suite,Qualification,450445,2024-08-22,APAC,Outstanding results delivered
+OPP-1744,Datadog,Grace Taylor,Cloud Storage,Closed Won,149691,2024-03-28,North America,Frustrated with timeline
+OPP-1745,Snowflake,Alice Chen,Mobile Platform,Qualification,488858,2024-12-16,Europe,"Great momentum, client excited"
+OPP-1746,Microsoft,Bob Patel,Security Add-on,Qualification,28463,2024-12-09,APAC,"Deal at risk, issues raised"
+OPP-1747,Palantir,Alice Chen,Integration API,Negotiation,54226,2024-08-13,Europe,"Deal at risk, issues raised"
+OPP-1748,ServiceNow,Frank Liu,Starter Pack,Negotiation,229173,2024-07-13,Europe,"Great momentum, client excited"
+OPP-1749,Adobe,Henry Brown,Cloud Storage,Qualification,381850,2024-12-15,LATAM,"Excellent partnership, very happy with progress"
+OPP-1750,Zoom,David Kim,Enterprise Suite,Negotiation,34219,2024-12-12,LATAM,Thrilled with the demo
+OPP-1751,Zoom,Bob Patel,Cloud Storage,Closed Lost,426415,2024-01-02,LATAM,Frustrated with timeline
+OPP-1752,Microsoft,Alice Chen,Mobile Platform,Closed Won,55606,2024-05-23,North America,Concerned about pricing
+OPP-1753,SAP,Henry Brown,Cloud Storage,Discovery,163006,2024-10-07,Europe,Frustrated with timeline
+OPP-1754,Confluent,Emma Johnson,Analytics Module,Closed Lost,50066,2024-02-07,Europe,"Excellent partnership, very happy with progress"
+OPP-1755,Snowflake,Henry Brown,Integration API,Qualification,333517,2024-09-16,LATAM,Outstanding results delivered
+OPP-1756,Zendesk,Frank Liu,Starter Pack,Proposal,497150,2024-05-24,North America,"Excellent partnership, very happy with progress"
+OPP-1757,HubSpot,Alice Chen,Starter Pack,Proposal,325803,2024-06-15,LATAM,Concerned about pricing
+OPP-1758,Elastic,David Kim,Analytics Module,Proposal,48199,2024-04-12,North America,"Struggling to close, client hesitant"
+OPP-1759,Zendesk,David Kim,Integration API,Discovery,152194,2024-09-30,APAC,Amazing opportunity ahead
+OPP-1760,Elastic,Henry Brown,Security Add-on,Closed Won,229709,2024-08-01,LATAM,Highly satisfied customer
+OPP-1761,Zendesk,Bob Patel,Starter Pack,Proposal,50935,2024-10-04,LATAM,Negative feedback received
+OPP-1762,Datadog,Alice Chen,Analytics Module,Discovery,469794,2024-08-24,North America,Strong interest shown
+OPP-1763,Zoom,Grace Taylor,Mobile Platform,Closed Won,60888,2024-01-19,LATAM,Fantastic collaboration
+OPP-1764,Oracle,Henry Brown,Security Add-on,Qualification,66710,2024-01-17,LATAM,Outstanding results delivered
+OPP-1765,Elastic,Alice Chen,Analytics Module,Qualification,72091,2024-12-29,LATAM,"Excellent partnership, very happy with progress"
+OPP-1766,MongoDB,Grace Taylor,Analytics Module,Closed Won,499188,2024-05-12,North America,Poor communication so far
+OPP-1767,Microsoft,Henry Brown,Analytics Module,Proposal,285549,2024-06-13,Europe,Amazing opportunity ahead
+OPP-1768,ServiceNow,Grace Taylor,Cloud Storage,Closed Lost,402065,2024-09-05,North America,"Deal at risk, issues raised"
+OPP-1769,Stripe,Carol Smith,Enterprise Suite,Closed Lost,294304,2024-09-21,Europe,Disappointed with delays
+OPP-1770,Databricks,Alice Chen,Mobile Platform,Negotiation,47597,2024-11-11,Europe,Disappointed with delays
+OPP-1771,Oracle,Bob Patel,Integration API,Proposal,14579,2024-04-16,LATAM,Strong interest shown
+OPP-1772,MongoDB,Bob Patel,Analytics Module,Closed Lost,159179,2024-03-27,North America,Frustrated with timeline
+OPP-1773,Palantir,Carol Smith,Integration API,Qualification,152895,2024-12-31,North America,Thrilled with the demo
+OPP-1774,Datadog,Alice Chen,Mobile Platform,Discovery,44658,2024-02-08,Europe,Negative feedback received
+OPP-1775,Zendesk,Bob Patel,Cloud Storage,Qualification,81131,2024-12-28,North America,Negative feedback received
+OPP-1776,Confluent,Grace Taylor,Starter Pack,Closed Lost,361956,2024-07-20,North America,Strong interest shown
+OPP-1777,Elastic,Henry Brown,Integration API,Closed Lost,347573,2024-07-29,North America,"Struggling to close, client hesitant"
+OPP-1778,ServiceNow,David Kim,Pro License,Closed Lost,367032,2024-07-23,North America,Highly satisfied customer
+OPP-1779,Twilio,Carol Smith,Starter Pack,Discovery,137037,2024-03-25,LATAM,Outstanding results delivered
+OPP-1780,Snowflake,Emma Johnson,Pro License,Proposal,477046,2024-03-06,Europe,Disappointed with delays
+OPP-1781,Zoom,Bob Patel,Integration API,Proposal,80826,2024-04-23,APAC,Negative feedback received
+OPP-1782,Microsoft,Emma Johnson,Starter Pack,Negotiation,151186,2024-08-22,LATAM,Negative feedback received
+OPP-1783,Zendesk,David Kim,Starter Pack,Closed Won,357958,2024-05-15,Europe,Thrilled with the demo
+OPP-1784,Palantir,Grace Taylor,Cloud Storage,Negotiation,43238,2024-08-03,North America,"Struggling to close, client hesitant"
+OPP-1785,Databricks,Emma Johnson,Starter Pack,Qualification,138782,2024-01-23,APAC,Disappointed with delays
+OPP-1786,HubSpot,David Kim,Starter Pack,Qualification,330607,2024-06-15,Europe,Concerned about pricing
+OPP-1787,Stripe,Emma Johnson,Enterprise Suite,Proposal,318600,2024-07-01,North America,Fantastic collaboration
+OPP-1788,Oracle,Frank Liu,Mobile Platform,Closed Won,325813,2024-08-14,Europe,Thrilled with the demo
+OPP-1789,Adobe,Henry Brown,Cloud Storage,Negotiation,230460,2024-01-28,APAC,"Deal at risk, issues raised"
+OPP-1790,Snowflake,Carol Smith,Cloud Storage,Negotiation,263730,2024-05-27,Europe,Fantastic collaboration
+OPP-1791,Zendesk,Henry Brown,Pro License,Discovery,25545,2024-07-19,North America,"Struggling to close, client hesitant"
+OPP-1792,Stripe,Frank Liu,Starter Pack,Proposal,458936,2024-11-04,North America,Strong interest shown
+OPP-1793,Databricks,Frank Liu,Security Add-on,Closed Won,111365,2024-05-22,APAC,Fantastic collaboration
+OPP-1794,Twilio,Frank Liu,Integration API,Qualification,43460,2024-09-18,Europe,"Struggling to close, client hesitant"
+OPP-1795,SAP,Henry Brown,Security Add-on,Discovery,361174,2024-10-06,APAC,Negative feedback received
+OPP-1796,MongoDB,Grace Taylor,Pro License,Closed Won,13367,2024-01-28,APAC,"Struggling to close, client hesitant"
+OPP-1797,Salesforce,Grace Taylor,Analytics Module,Discovery,313916,2024-08-14,APAC,"Struggling to close, client hesitant"
+OPP-1798,Snowflake,Grace Taylor,Integration API,Discovery,387171,2024-07-06,LATAM,"Struggling to close, client hesitant"
+OPP-1799,Stripe,Carol Smith,Security Add-on,Closed Lost,369850,2024-09-04,Europe,Fantastic collaboration
+OPP-1800,Workday,Carol Smith,Integration API,Closed Lost,251625,2024-01-07,Europe,"Deal at risk, issues raised"
+OPP-1801,Adobe,Henry Brown,Cloud Storage,Closed Lost,337658,2024-11-02,APAC,"Excellent partnership, very happy with progress"
+OPP-1802,ServiceNow,David Kim,Analytics Module,Closed Lost,402299,2024-09-30,Europe,Highly satisfied customer
+OPP-1803,Slack,Frank Liu,Cloud Storage,Negotiation,368267,2024-12-11,LATAM,Frustrated with timeline
+OPP-1804,Salesforce,Bob Patel,Integration API,Closed Lost,280793,2024-06-15,LATAM,Outstanding results delivered
+OPP-1805,Confluent,Frank Liu,Cloud Storage,Proposal,31769,2024-06-08,APAC,Fantastic collaboration
+OPP-1806,Slack,Henry Brown,Pro License,Qualification,33589,2024-09-14,Europe,"Excellent partnership, very happy with progress"
+OPP-1807,Slack,Alice Chen,Cloud Storage,Qualification,178439,2024-05-06,APAC,Strong interest shown
+OPP-1808,Twilio,Carol Smith,Analytics Module,Proposal,327392,2024-12-14,LATAM,"Deal at risk, issues raised"
+OPP-1809,Snowflake,Emma Johnson,Enterprise Suite,Closed Won,463856,2024-05-06,Europe,Strong interest shown
+OPP-1810,HubSpot,David Kim,Analytics Module,Closed Won,44359,2024-10-02,North America,Amazing opportunity ahead
+OPP-1811,Palantir,Carol Smith,Pro License,Proposal,435783,2024-04-14,LATAM,Frustrated with timeline
+OPP-1812,Confluent,Henry Brown,Pro License,Discovery,376644,2024-03-05,Europe,Amazing opportunity ahead
+OPP-1813,Confluent,Carol Smith,Analytics Module,Qualification,432137,2024-08-12,APAC,Disappointed with delays
+OPP-1814,HubSpot,Carol Smith,Enterprise Suite,Qualification,297166,2024-07-09,LATAM,Highly satisfied customer
+OPP-1815,Oracle,Carol Smith,Enterprise Suite,Qualification,210209,2024-07-10,LATAM,"Deal at risk, issues raised"
+OPP-1816,Salesforce,David Kim,Analytics Module,Closed Won,432563,2024-10-15,North America,Highly satisfied customer
+OPP-1817,Adobe,Grace Taylor,Integration API,Proposal,457919,2024-06-23,Europe,Disappointed with delays
+OPP-1818,Confluent,Emma Johnson,Analytics Module,Negotiation,212272,2024-10-21,Europe,Outstanding results delivered
+OPP-1819,Datadog,Frank Liu,Analytics Module,Closed Lost,73477,2024-12-11,North America,"Excellent partnership, very happy with progress"
+OPP-1820,Confluent,David Kim,Security Add-on,Discovery,51084,2024-06-13,Europe,"Deal at risk, issues raised"
+OPP-1821,Workday,Emma Johnson,Pro License,Closed Won,120771,2024-12-18,APAC,Frustrated with timeline
+OPP-1822,ServiceNow,Henry Brown,Cloud Storage,Discovery,272842,2024-10-28,Europe,Highly satisfied customer
+OPP-1823,Microsoft,Frank Liu,Cloud Storage,Closed Won,478365,2024-02-14,Europe,Strong interest shown
+OPP-1824,Slack,Emma Johnson,Pro License,Discovery,462634,2024-02-26,LATAM,Highly satisfied customer
+OPP-1825,Datadog,Frank Liu,Pro License,Proposal,25234,2024-07-30,Europe,Poor communication so far
+OPP-1826,Elastic,Frank Liu,Integration API,Closed Won,98166,2024-03-14,APAC,"Struggling to close, client hesitant"
+OPP-1827,Microsoft,Bob Patel,Mobile Platform,Proposal,186388,2024-04-13,Europe,Negative feedback received
+OPP-1828,HubSpot,Frank Liu,Enterprise Suite,Qualification,327764,2024-06-26,APAC,Fantastic collaboration
+OPP-1829,Zoom,Carol Smith,Pro License,Qualification,413192,2024-01-12,North America,Frustrated with timeline
+OPP-1830,Palantir,Frank Liu,Cloud Storage,Qualification,28491,2024-06-06,Europe,Fantastic collaboration
+OPP-1831,Salesforce,Henry Brown,Integration API,Proposal,44618,2024-12-31,North America,Concerned about pricing
+OPP-1832,SAP,Carol Smith,Pro License,Negotiation,396779,2024-10-28,Europe,"Struggling to close, client hesitant"
+OPP-1833,Salesforce,David Kim,Enterprise Suite,Proposal,229806,2024-03-27,Europe,Frustrated with timeline
+OPP-1834,Twilio,David Kim,Starter Pack,Closed Lost,453766,2024-07-08,Europe,Poor communication so far
+OPP-1835,Zendesk,Emma Johnson,Integration API,Discovery,380173,2024-08-10,LATAM,Poor communication so far
+OPP-1836,Salesforce,Frank Liu,Mobile Platform,Negotiation,353287,2024-06-23,North America,"Struggling to close, client hesitant"
+OPP-1837,Zoom,Frank Liu,Mobile Platform,Qualification,287252,2024-06-23,APAC,Amazing opportunity ahead
+OPP-1838,Zoom,Carol Smith,Security Add-on,Negotiation,326427,2024-09-26,LATAM,Frustrated with timeline
+OPP-1839,Oracle,Emma Johnson,Integration API,Closed Lost,438018,2024-08-29,LATAM,"Struggling to close, client hesitant"
+OPP-1840,Adobe,Bob Patel,Cloud Storage,Discovery,356400,2024-03-09,LATAM,Concerned about pricing
+OPP-1841,Salesforce,Alice Chen,Pro License,Discovery,395720,2024-12-08,Europe,Thrilled with the demo
+OPP-1842,ServiceNow,Alice Chen,Enterprise Suite,Negotiation,58857,2024-07-15,Europe,Disappointed with delays
+OPP-1843,Confluent,Emma Johnson,Integration API,Qualification,423903,2024-12-21,Europe,Concerned about pricing
+OPP-1844,SAP,David Kim,Analytics Module,Closed Lost,403210,2024-08-23,Europe,Thrilled with the demo
+OPP-1845,Elastic,Emma Johnson,Cloud Storage,Negotiation,159107,2024-02-16,Europe,"Struggling to close, client hesitant"
+OPP-1846,Zendesk,Alice Chen,Enterprise Suite,Closed Lost,209808,2024-05-04,APAC,Negative feedback received
+OPP-1847,MongoDB,Emma Johnson,Security Add-on,Closed Won,449010,2024-03-06,APAC,Frustrated with timeline
+OPP-1848,Adobe,Carol Smith,Cloud Storage,Negotiation,394055,2024-07-07,North America,Negative feedback received
+OPP-1849,Confluent,Alice Chen,Enterprise Suite,Qualification,294207,2024-05-06,Europe,Amazing opportunity ahead
+OPP-1850,HubSpot,Emma Johnson,Integration API,Qualification,356880,2024-04-26,Europe,Strong interest shown
+OPP-1851,Palantir,Frank Liu,Cloud Storage,Qualification,164920,2024-02-07,North America,Concerned about pricing
+OPP-1852,Zoom,Emma Johnson,Pro License,Closed Lost,224710,2024-03-31,Europe,Concerned about pricing
+OPP-1853,Zoom,Carol Smith,Analytics Module,Closed Won,408460,2024-05-12,North America,Concerned about pricing
+OPP-1854,HubSpot,David Kim,Pro License,Negotiation,477522,2024-05-26,APAC,Concerned about pricing
+OPP-1855,Slack,Grace Taylor,Security Add-on,Proposal,404179,2024-07-31,Europe,Strong interest shown
+OPP-1856,Twilio,Carol Smith,Mobile Platform,Closed Won,287743,2024-09-16,North America,"Great momentum, client excited"
+OPP-1857,Snowflake,Bob Patel,Cloud Storage,Closed Lost,186003,2024-12-25,North America,"Excellent partnership, very happy with progress"
+OPP-1858,Confluent,Frank Liu,Security Add-on,Qualification,326865,2024-03-06,LATAM,Outstanding results delivered
+OPP-1859,ServiceNow,Emma Johnson,Analytics Module,Closed Lost,52924,2024-08-08,APAC,"Struggling to close, client hesitant"
+OPP-1860,Databricks,Carol Smith,Pro License,Negotiation,141412,2024-02-19,North America,Strong interest shown
+OPP-1861,Confluent,David Kim,Cloud Storage,Closed Lost,332576,2024-01-28,North America,"Struggling to close, client hesitant"
+OPP-1862,Salesforce,Carol Smith,Integration API,Discovery,305300,2024-02-21,APAC,Thrilled with the demo
+OPP-1863,Microsoft,Bob Patel,Starter Pack,Proposal,283776,2024-05-18,LATAM,"Deal at risk, issues raised"
+OPP-1864,Zendesk,Alice Chen,Enterprise Suite,Negotiation,448916,2024-05-06,North America,Negative feedback received
+OPP-1865,Zoom,Carol Smith,Analytics Module,Discovery,106247,2024-04-14,Europe,"Struggling to close, client hesitant"
+OPP-1866,Zendesk,Grace Taylor,Starter Pack,Discovery,111547,2024-11-18,North America,Strong interest shown
+OPP-1867,Workday,Grace Taylor,Cloud Storage,Closed Won,28576,2024-11-16,North America,Disappointed with delays
+OPP-1868,Salesforce,Grace Taylor,Cloud Storage,Proposal,294818,2024-09-22,North America,Fantastic collaboration
+OPP-1869,Zoom,Carol Smith,Analytics Module,Closed Lost,435802,2024-10-13,Europe,Poor communication so far
+OPP-1870,Stripe,David Kim,Cloud Storage,Closed Won,87762,2024-09-10,North America,"Excellent partnership, very happy with progress"
+OPP-1871,Zendesk,Alice Chen,Starter Pack,Discovery,19616,2024-05-09,Europe,Outstanding results delivered
+OPP-1872,Confluent,Henry Brown,Security Add-on,Closed Won,37461,2024-05-03,APAC,"Excellent partnership, very happy with progress"
+OPP-1873,Workday,David Kim,Mobile Platform,Closed Won,50233,2024-08-22,North America,Thrilled with the demo
+OPP-1874,Salesforce,Frank Liu,Analytics Module,Closed Lost,448952,2024-09-11,LATAM,Frustrated with timeline
+OPP-1875,Zoom,Frank Liu,Enterprise Suite,Closed Won,160047,2024-04-04,Europe,"Deal at risk, issues raised"
+OPP-1876,MongoDB,Carol Smith,Enterprise Suite,Negotiation,279858,2024-08-14,Europe,Amazing opportunity ahead
+OPP-1877,Adobe,Alice Chen,Enterprise Suite,Proposal,107094,2024-07-15,Europe,Negative feedback received
+OPP-1878,HubSpot,Frank Liu,Analytics Module,Proposal,448833,2024-12-24,LATAM,Highly satisfied customer
+OPP-1879,Snowflake,Carol Smith,Enterprise Suite,Closed Won,245074,2024-06-06,APAC,Disappointed with delays
+OPP-1880,Zendesk,David Kim,Cloud Storage,Proposal,459371,2024-06-17,APAC,Thrilled with the demo
+OPP-1881,Salesforce,Frank Liu,Cloud Storage,Negotiation,415391,2024-04-14,LATAM,"Deal at risk, issues raised"
+OPP-1882,Elastic,Carol Smith,Pro License,Proposal,302113,2024-01-27,LATAM,"Excellent partnership, very happy with progress"
+OPP-1883,Twilio,Henry Brown,Security Add-on,Closed Won,460615,2024-04-13,LATAM,Concerned about pricing
+OPP-1884,Twilio,Henry Brown,Enterprise Suite,Qualification,221008,2024-07-10,Europe,Amazing opportunity ahead
+OPP-1885,Zendesk,Bob Patel,Cloud Storage,Qualification,152909,2024-06-09,LATAM,Outstanding results delivered
+OPP-1886,Workday,Frank Liu,Enterprise Suite,Closed Lost,103029,2024-01-17,APAC,"Great momentum, client excited"
+OPP-1887,Salesforce,Emma Johnson,Security Add-on,Qualification,181126,2024-08-28,APAC,"Great momentum, client excited"
+OPP-1888,MongoDB,David Kim,Enterprise Suite,Qualification,196174,2024-06-03,North America,Amazing opportunity ahead
+OPP-1889,Elastic,David Kim,Cloud Storage,Negotiation,479305,2024-06-15,LATAM,Negative feedback received
+OPP-1890,Workday,Frank Liu,Analytics Module,Closed Won,403207,2024-07-19,North America,Frustrated with timeline
+OPP-1891,Snowflake,David Kim,Starter Pack,Qualification,338672,2024-03-13,LATAM,"Great momentum, client excited"
+OPP-1892,Adobe,Grace Taylor,Mobile Platform,Discovery,223681,2024-01-25,North America,Amazing opportunity ahead
+OPP-1893,Datadog,Grace Taylor,Mobile Platform,Closed Won,479156,2024-11-25,North America,Disappointed with delays
+OPP-1894,Zendesk,Grace Taylor,Enterprise Suite,Closed Won,403968,2024-03-07,North America,Frustrated with timeline
+OPP-1895,Adobe,Emma Johnson,Pro License,Closed Won,193073,2024-03-25,LATAM,"Great momentum, client excited"
+OPP-1896,Confluent,Bob Patel,Integration API,Negotiation,337345,2024-05-31,North America,Concerned about pricing
+OPP-1897,SAP,Carol Smith,Starter Pack,Qualification,320229,2024-02-13,Europe,"Great momentum, client excited"
+OPP-1898,Datadog,Alice Chen,Analytics Module,Negotiation,167993,2024-11-07,Europe,"Deal at risk, issues raised"
+OPP-1899,HubSpot,David Kim,Analytics Module,Closed Won,205070,2024-10-23,North America,Fantastic collaboration
+OPP-1900,Palantir,Emma Johnson,Security Add-on,Discovery,354244,2024-11-21,North America,Negative feedback received
+OPP-1901,MongoDB,Carol Smith,Analytics Module,Closed Won,76025,2024-06-23,Europe,Outstanding results delivered
+OPP-1902,Zendesk,Emma Johnson,Security Add-on,Closed Lost,266031,2024-12-02,Europe,"Great momentum, client excited"
+OPP-1903,Palantir,Bob Patel,Enterprise Suite,Proposal,360559,2024-11-06,Europe,Strong interest shown
+OPP-1904,Datadog,Henry Brown,Mobile Platform,Proposal,418058,2024-01-16,APAC,"Deal at risk, issues raised"
+OPP-1905,Snowflake,Alice Chen,Cloud Storage,Closed Lost,118908,2024-08-17,North America,Concerned about pricing
+OPP-1906,Stripe,Frank Liu,Pro License,Closed Won,465356,2024-10-25,APAC,Highly satisfied customer
+OPP-1907,ServiceNow,Carol Smith,Integration API,Closed Lost,313785,2024-06-18,APAC,Strong interest shown
+OPP-1908,HubSpot,Bob Patel,Cloud Storage,Qualification,33184,2024-07-06,Europe,Disappointed with delays
+OPP-1909,Palantir,Frank Liu,Starter Pack,Closed Lost,294759,2024-08-12,Europe,Frustrated with timeline
+OPP-1910,Zoom,Bob Patel,Mobile Platform,Negotiation,324880,2024-05-14,APAC,"Deal at risk, issues raised"
+OPP-1911,Slack,Bob Patel,Integration API,Negotiation,144735,2024-12-11,Europe,Poor communication so far
+OPP-1912,ServiceNow,Carol Smith,Starter Pack,Qualification,215706,2024-09-13,LATAM,Disappointed with delays
+OPP-1913,Palantir,Bob Patel,Integration API,Discovery,25818,2024-10-28,Europe,Strong interest shown
+OPP-1914,Datadog,Bob Patel,Enterprise Suite,Negotiation,461685,2024-04-21,APAC,Outstanding results delivered
+OPP-1915,HubSpot,Frank Liu,Security Add-on,Proposal,232780,2024-09-05,Europe,Thrilled with the demo
+OPP-1916,Oracle,Frank Liu,Pro License,Discovery,348310,2024-08-19,Europe,Strong interest shown
+OPP-1917,Confluent,Grace Taylor,Integration API,Closed Won,418077,2024-07-27,APAC,"Deal at risk, issues raised"
+OPP-1918,Databricks,Bob Patel,Analytics Module,Qualification,168312,2024-12-29,APAC,Fantastic collaboration
+OPP-1919,Microsoft,Frank Liu,Enterprise Suite,Closed Lost,304984,2024-10-13,LATAM,Fantastic collaboration
+OPP-1920,Zendesk,Emma Johnson,Cloud Storage,Discovery,257266,2024-11-15,North America,Negative feedback received
+OPP-1921,Zoom,Bob Patel,Enterprise Suite,Proposal,342152,2024-03-05,Europe,Outstanding results delivered
+OPP-1922,MongoDB,Emma Johnson,Mobile Platform,Qualification,404821,2024-04-27,LATAM,Disappointed with delays
+OPP-1923,Elastic,David Kim,Enterprise Suite,Qualification,268373,2024-10-22,LATAM,Highly satisfied customer
+OPP-1924,Elastic,Emma Johnson,Starter Pack,Closed Won,220510,2024-01-02,LATAM,"Great momentum, client excited"
+OPP-1925,Elastic,David Kim,Enterprise Suite,Qualification,391000,2024-10-25,North America,Outstanding results delivered
+OPP-1926,Datadog,Henry Brown,Enterprise Suite,Discovery,98483,2024-04-05,LATAM,Thrilled with the demo
+OPP-1927,Snowflake,Carol Smith,Pro License,Closed Won,394140,2024-09-29,Europe,"Struggling to close, client hesitant"
+OPP-1928,Elastic,Henry Brown,Cloud Storage,Closed Lost,381557,2024-11-30,APAC,Strong interest shown
+OPP-1929,Databricks,Grace Taylor,Analytics Module,Closed Won,401836,2024-01-20,North America,Fantastic collaboration
+OPP-1930,Confluent,Bob Patel,Starter Pack,Proposal,392413,2024-01-18,APAC,Fantastic collaboration
+OPP-1931,ServiceNow,Carol Smith,Security Add-on,Discovery,212472,2024-09-15,LATAM,"Deal at risk, issues raised"
+OPP-1932,Stripe,Frank Liu,Enterprise Suite,Negotiation,214481,2024-04-01,APAC,Fantastic collaboration
+OPP-1933,Datadog,Carol Smith,Starter Pack,Closed Won,257372,2024-11-01,North America,"Struggling to close, client hesitant"
+OPP-1934,Adobe,Carol Smith,Mobile Platform,Closed Lost,296091,2024-03-20,APAC,Poor communication so far
+OPP-1935,SAP,Frank Liu,Integration API,Closed Lost,341113,2024-09-20,North America,"Struggling to close, client hesitant"
+OPP-1936,Workday,Grace Taylor,Analytics Module,Discovery,200933,2024-04-03,Europe,Frustrated with timeline
+OPP-1937,Stripe,David Kim,Analytics Module,Negotiation,55157,2024-02-08,Europe,Disappointed with delays
+OPP-1938,Slack,Emma Johnson,Integration API,Proposal,470892,2024-06-05,Europe,Highly satisfied customer
+OPP-1939,ServiceNow,Bob Patel,Pro License,Proposal,323593,2024-02-25,APAC,"Excellent partnership, very happy with progress"
+OPP-1940,Zoom,Alice Chen,Integration API,Negotiation,460134,2024-11-04,North America,Highly satisfied customer
+OPP-1941,Zoom,Carol Smith,Pro License,Proposal,357692,2024-10-05,LATAM,"Deal at risk, issues raised"
+OPP-1942,Adobe,Bob Patel,Mobile Platform,Proposal,346909,2024-05-06,LATAM,Frustrated with timeline
+OPP-1943,Salesforce,Frank Liu,Enterprise Suite,Closed Lost,31425,2024-08-28,APAC,Amazing opportunity ahead
+OPP-1944,MongoDB,Grace Taylor,Mobile Platform,Discovery,395373,2024-10-23,Europe,Concerned about pricing
+OPP-1945,Twilio,Carol Smith,Pro License,Proposal,367607,2024-05-10,Europe,Poor communication so far
+OPP-1946,Elastic,Bob Patel,Enterprise Suite,Closed Lost,370408,2024-04-13,LATAM,Negative feedback received
+OPP-1947,Palantir,Henry Brown,Mobile Platform,Discovery,51086,2024-11-03,APAC,Frustrated with timeline
+OPP-1948,SAP,Emma Johnson,Mobile Platform,Closed Won,149793,2024-03-12,LATAM,Strong interest shown
+OPP-1949,Datadog,Bob Patel,Mobile Platform,Closed Lost,383073,2024-09-15,Europe,Thrilled with the demo
+OPP-1950,ServiceNow,David Kim,Integration API,Discovery,34768,2024-01-07,North America,Strong interest shown
+OPP-1951,ServiceNow,Bob Patel,Enterprise Suite,Qualification,43712,2024-02-11,Europe,Outstanding results delivered
+OPP-1952,Oracle,David Kim,Integration API,Qualification,442854,2024-11-12,APAC,Poor communication so far
+OPP-1953,Zendesk,Alice Chen,Cloud Storage,Qualification,408600,2024-07-25,APAC,Negative feedback received
+OPP-1954,MongoDB,Henry Brown,Cloud Storage,Discovery,40666,2024-08-17,APAC,Strong interest shown
+OPP-1955,Stripe,Carol Smith,Integration API,Closed Won,97191,2024-07-23,APAC,Highly satisfied customer
+OPP-1956,Oracle,Frank Liu,Cloud Storage,Qualification,371648,2024-02-12,Europe,Amazing opportunity ahead
+OPP-1957,MongoDB,Alice Chen,Pro License,Closed Won,12950,2024-08-06,APAC,Amazing opportunity ahead
+OPP-1958,MongoDB,Frank Liu,Pro License,Negotiation,106790,2024-04-25,LATAM,Outstanding results delivered
+OPP-1959,Slack,Bob Patel,Starter Pack,Closed Won,87853,2024-06-26,APAC,"Deal at risk, issues raised"
+OPP-1960,Twilio,Alice Chen,Integration API,Proposal,45104,2024-08-27,LATAM,"Excellent partnership, very happy with progress"
+OPP-1961,Adobe,Henry Brown,Security Add-on,Discovery,118233,2024-08-11,North America,Concerned about pricing
+OPP-1962,ServiceNow,Henry Brown,Mobile Platform,Closed Lost,459420,2024-11-12,LATAM,Frustrated with timeline
+OPP-1963,Oracle,Grace Taylor,Security Add-on,Negotiation,469685,2024-04-05,APAC,Concerned about pricing
+OPP-1964,Stripe,Bob Patel,Mobile Platform,Qualification,123128,2024-07-05,LATAM,Highly satisfied customer
+OPP-1965,SAP,Emma Johnson,Starter Pack,Qualification,432800,2024-04-12,LATAM,Outstanding results delivered
+OPP-1966,Snowflake,Emma Johnson,Pro License,Closed Lost,394133,2024-07-23,LATAM,Negative feedback received
+OPP-1967,Zoom,Henry Brown,Starter Pack,Closed Won,333973,2024-05-31,LATAM,Thrilled with the demo
+OPP-1968,Stripe,Frank Liu,Analytics Module,Qualification,349016,2024-04-14,North America,Poor communication so far
+OPP-1969,Palantir,Carol Smith,Pro License,Closed Lost,48657,2024-11-22,LATAM,Disappointed with delays
+OPP-1970,Elastic,Bob Patel,Security Add-on,Qualification,227595,2024-03-15,Europe,"Excellent partnership, very happy with progress"
+OPP-1971,Adobe,Alice Chen,Starter Pack,Closed Won,245647,2024-11-17,LATAM,"Great momentum, client excited"
+OPP-1972,Zoom,Frank Liu,Cloud Storage,Closed Won,182186,2024-02-28,APAC,Negative feedback received
+OPP-1973,Stripe,Alice Chen,Pro License,Closed Lost,294007,2024-04-23,North America,Disappointed with delays
+OPP-1974,Oracle,Alice Chen,Pro License,Proposal,93829,2024-10-23,APAC,Thrilled with the demo
+OPP-1975,Confluent,Bob Patel,Analytics Module,Negotiation,444470,2024-08-19,LATAM,Negative feedback received
+OPP-1976,Palantir,Frank Liu,Mobile Platform,Closed Lost,155341,2024-06-25,Europe,Poor communication so far
+OPP-1977,MongoDB,David Kim,Starter Pack,Negotiation,302846,2024-01-05,Europe,Amazing opportunity ahead
+OPP-1978,Slack,Grace Taylor,Analytics Module,Closed Won,288391,2024-01-22,Europe,"Excellent partnership, very happy with progress"
+OPP-1979,Stripe,Emma Johnson,Analytics Module,Negotiation,189245,2024-09-26,Europe,"Excellent partnership, very happy with progress"
+OPP-1980,Microsoft,Carol Smith,Starter Pack,Closed Won,196295,2024-11-03,Europe,Fantastic collaboration
+OPP-1981,SAP,Bob Patel,Pro License,Qualification,189393,2024-11-14,APAC,Outstanding results delivered
+OPP-1982,Adobe,Bob Patel,Pro License,Negotiation,332459,2024-04-21,Europe,"Great momentum, client excited"
+OPP-1983,Zoom,Carol Smith,Mobile Platform,Negotiation,392793,2024-01-05,North America,"Deal at risk, issues raised"
+OPP-1984,Zendesk,Frank Liu,Enterprise Suite,Discovery,11614,2024-12-03,LATAM,Amazing opportunity ahead
+OPP-1985,Workday,Carol Smith,Enterprise Suite,Closed Won,164883,2024-02-20,LATAM,Fantastic collaboration
+OPP-1986,Stripe,Henry Brown,Enterprise Suite,Closed Won,12329,2024-08-18,LATAM,Strong interest shown
+OPP-1987,ServiceNow,Frank Liu,Security Add-on,Qualification,137769,2024-09-05,LATAM,Concerned about pricing
+OPP-1988,Salesforce,David Kim,Cloud Storage,Closed Won,164650,2024-05-05,Europe,Thrilled with the demo
+OPP-1989,MongoDB,David Kim,Pro License,Proposal,59162,2024-10-17,LATAM,"Deal at risk, issues raised"
+OPP-1990,Zendesk,Carol Smith,Pro License,Closed Lost,23584,2024-10-18,North America,Poor communication so far
+OPP-1991,MongoDB,Frank Liu,Security Add-on,Qualification,246940,2024-08-04,APAC,"Deal at risk, issues raised"
+OPP-1992,MongoDB,Frank Liu,Cloud Storage,Qualification,82480,2024-11-07,APAC,"Excellent partnership, very happy with progress"
+OPP-1993,ServiceNow,Grace Taylor,Pro License,Qualification,89446,2024-08-24,Europe,Frustrated with timeline
+OPP-1994,Snowflake,Bob Patel,Analytics Module,Negotiation,138127,2024-07-20,APAC,"Excellent partnership, very happy with progress"
+OPP-1995,SAP,David Kim,Enterprise Suite,Closed Lost,113624,2024-05-15,LATAM,Concerned about pricing
+OPP-1996,Confluent,Bob Patel,Analytics Module,Discovery,92604,2024-08-16,APAC,Negative feedback received
+OPP-1997,Workday,Alice Chen,Pro License,Negotiation,62318,2024-12-08,LATAM,Highly satisfied customer
+OPP-1998,Datadog,Grace Taylor,Analytics Module,Closed Won,436383,2024-07-02,North America,Concerned about pricing
+OPP-1999,Twilio,Grace Taylor,Security Add-on,Proposal,334964,2024-07-24,APAC,Outstanding results delivered

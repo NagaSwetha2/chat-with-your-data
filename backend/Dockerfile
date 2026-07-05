@@ -13,6 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY rag_engine.py .
 COPY backend/main.py ./backend/main.py
+COPY backend/charts.py ./backend/charts.py
+COPY backend/sf_knowledge.py ./backend/sf_knowledge.py
 COPY --from=frontend-build /frontend/dist ./frontend/dist
 
 EXPOSE 8000
