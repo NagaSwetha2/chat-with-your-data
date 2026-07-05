@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const API_BASE = 'http://localhost:8000'
+const API_BASE = ''
 
 function App() {
   const [indexId, setIndexId] = useState(null)
@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>💬 Chat With Your Data</h1>
+        <h1>Zarva</h1>
         <p>Upload a CSV or text file, then ask questions about it.</p>
       </header>
 
@@ -74,7 +74,7 @@ function App() {
           <div className="messages">
             {messages.map((msg, i) => (
               <div key={i} className={`message ${msg.role}`}>
-                <strong>{msg.role === 'user' ? 'You' : 'Assistant'}:</strong> {msg.content}
+                <strong>{msg.role === 'user' ? 'You' : 'Zarva'}</strong> {msg.content}
               </div>
             ))}
             {asking && <div className="message assistant">Thinking...</div>}

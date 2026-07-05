@@ -3,7 +3,10 @@ import uuid
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
+import os
 
 from rag_engine import ask, build_index, documents_from_csv, documents_from_text
 
@@ -11,13 +14,16 @@ app = FastAPI(title="Chat With Your Data API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:5174"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "https://zarva.net",
+        "https://www.zarva.net",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# In-memory store: index_id -> FAISS db. Fine for a single-process demo;
-# swap for a hosted vector DB before multi-instance/production use.
 _indexes: dict[str, object] = {}
 
 
@@ -62,3 +68,12 @@ async def chat(req: ChatRequest):
 
     answer = ask(db, req.question)
     return ChatResponse(answer=answer)
+
+
+_static_dir = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+if os.path.isdir(_static_dir):
+    app.mount("/assets", StaticFiles(directory=os.path.join(_static_dir, "assets")), name="assets")
+
+    @app.get("/{full_path:path}")
+    async def serve_frontend(full_path: str):
+        return FileResponse(os.path.join(_static_dir, "index.html"))

@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from dotenv import load_dotenv
+from textblob import TextBlob
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
@@ -23,7 +24,6 @@ def get_llm(temperature=0.2):
 
 
 def documents_from_csv(file) -> list[str]:
-    """Each row becomes one searchable document. Works for any CSV shape."""
     df = pd.read_csv(file)
     docs = []
     for _, row in df.iterrows():
@@ -33,7 +33,6 @@ def documents_from_csv(file) -> list[str]:
 
 
 def documents_from_text(file) -> list[str]:
-    """Chunk plain text into overlapping windows for retrieval."""
     raw = file.read().decode("utf-8")
     chunk_size, overlap = 800, 100
     chunks = []
@@ -45,11 +44,7 @@ def documents_from_text(file) -> list[str]:
 
 
 def documents_from_salesforce(sf_connector, soql_queries: list[str]) -> list[str]:
-    """
-    Placeholder for the Phase 2 Salesforce connector.
-    sf_connector.query(soql) should return a list of record dicts.
-    Each record becomes one searchable document, same shape as CSV rows.
-    """
+    # TODO: wire up real SF connector
     docs = []
     for soql in soql_queries:
         for record in sf_connector.query(soql):
@@ -58,14 +53,26 @@ def documents_from_salesforce(sf_connector, soql_queries: list[str]) -> list[str
     return docs
 
 
+def _sentiment_tag(text: str) -> str:
+    score = TextBlob(text).sentiment.polarity
+    if score > 0.1:
+        return "positive"
+    elif score < -0.1:
+        return "negative"
+    else:
+        return "neutral"
+
+
 def build_index(documents: list[str]) -> FAISS:
-    return FAISS.from_texts(documents, _embeddings)
+    tagged = [f"[sentiment: {_sentiment_tag(doc)}] {doc}" for doc in documents]
+    return FAISS.from_texts(tagged, _embeddings)
 
 
 RAG_PROMPT = ChatPromptTemplate.from_messages([
-    ("system", """You are a data analyst assistant. Answer the question using
-ONLY the context below. If the answer isn't in the context, say you don't know.
+    ("system", """You are a data analyst assistant. Answer the question using ONLY the context below.
+If the answer isn't in the context, say you don't know.
 Be specific — cite numbers and names directly from the context.
+If the user asks for one record, return only the single best match, not a list.
 
 Context:
 {context}"""),
@@ -73,8 +80,23 @@ Context:
 ])
 
 
+_POSITIVE_WORDS = {"happy", "positive", "good", "great", "excellent", "joyful", "satisfied", "love", "amazing", "wonderful", "best", "fantastic"}
+_NEGATIVE_WORDS = {"sad", "negative", "bad", "terrible", "awful", "angry", "unhappy", "hate", "worst", "horrible", "disappointed", "upset"}
+
+def _enrich_query(question: str) -> str:
+    words = set(question.lower().split())
+    if words & _POSITIVE_WORDS:
+        return question + " [sentiment: positive]"
+    if words & _NEGATIVE_WORDS:
+        return question + " [sentiment: negative]"
+    return question
+
+
 def ask(db: FAISS, question: str) -> str:
-    retriever = db.as_retriever(search_kwargs={"k": 5})
+    singular_words = {"one", "single", "a", "any", "top", "best", "highest", "most"}
+    k = 1 if set(question.lower().split()) & singular_words else 5
+    retriever = db.as_retriever(search_kwargs={"k": k})
+    enriched = _enrich_query(question)
     chain = (
         {"context": retriever | (lambda docs: "\n".join(d.page_content for d in docs)),
          "question": RunnablePassthrough()}
@@ -82,4 +104,4 @@ def ask(db: FAISS, question: str) -> str:
         | get_llm()
         | StrOutputParser()
     )
-    return chain.invoke(question)
+    return chain.invoke(enriched)
