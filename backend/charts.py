@@ -491,35 +491,36 @@ def _detect_chart_type(q: str) -> str:
 # ─────────────────── CSV chart (DataFrame path) ─────────────────────────
 
 def generate_dynamic_chart(df: pd.DataFrame, question: str) -> dict:
-    # If the LLM already computed specific named values, chart those directly
-    answer_data = _extract_answer_context(question)
-    if answer_data and len(answer_data) >= 3:
-        q0 = _normalize_q(question)
-        ct = _detect_chart_type(q0)
-        series = pd.Series(answer_data).sort_values(ascending=False)
-        title = q0.strip().title()
-        if ct == "pie":
-            return {"chart": _pie_chart(series, title)}
-        if ct == "bar" or len(series) > 8:
-            return {"chart": _bar_chart(series, title, ylabel="Value")}
-        return {"chart": _pie_chart(series, title)}
-
     q = _normalize_q(question)
     chart_type = _detect_chart_type(q)
 
-    cat_cols  = [c for c in df.columns if df[c].dtype == object]
-    num_cols  = [c for c in df.columns if pd.api.types.is_numeric_dtype(df[c])]
+    # Classify columns — be liberal: low-cardinality columns are categorical even if numeric
+    cat_cols  = [c for c in df.columns
+                 if df[c].dtype == object or
+                 (df[c].nunique() <= 30 and not pd.api.types.is_float_dtype(df[c])
+                  and "id" not in c.lower() and "date" not in c.lower())]
+    num_cols  = [c for c in df.columns
+                 if pd.api.types.is_numeric_dtype(df[c]) and c not in cat_cols]
     date_cols = [c for c in df.columns
                  if "date" in c.lower() or "time" in c.lower()
                  or pd.api.types.is_datetime64_any_dtype(df[c])]
 
-    # find ALL columns mentioned in the question
+    # Find columns mentioned by name in the question
     q_nospace = q.replace(" ", "")
     mentioned = [c for c in df.columns
                  if c.lower() in q or c.lower().replace(" ","") in q_nospace]
-    target_col  = mentioned[0] if mentioned else None
-    target_cat  = next((c for c in mentioned if c in cat_cols), None)
-    target_num  = next((c for c in mentioned if c in num_cols), None)
+    target_cat = next((c for c in mentioned if c in cat_cols), None)
+    target_num = next((c for c in mentioned if c in num_cols), None)
+    target_col = target_cat or target_num or (mentioned[0] if mentioned else None)
+
+    # Best defaults when nothing is explicitly mentioned
+    _STAGE_LIKE = ["stage","status","category","type","priority","phase","tier","group","label","class"]
+    best_cat = target_cat or next(
+        (c for c in cat_cols if any(k in c.lower() for k in _STAGE_LIKE)), None
+    ) or (cat_cols[0] if cat_cols else None)
+    best_num = target_num or next(
+        (c for c in num_cols if any(k in c.lower() for k in ["amount","revenue","value","price","cost","score","count"])), None
+    ) or (num_cols[0] if num_cols else None)
 
     def clean_num(col):
         return pd.to_numeric(
@@ -648,28 +649,25 @@ def generate_dynamic_chart(df: pd.DataFrame, question: str) -> dict:
 
     # ── pie ────────────────────────────────────────────────────────────
     if chart_type == "pie":
-        cat_col = target_cat or (cat_cols[0] if cat_cols else None)
-        if cat_col:
-            vc = df[cat_col].value_counts()
+        if best_cat:
+            vc = df[best_cat].value_counts()
             if len(vc) >= 2:
-                return {"chart": _pie_chart(vc, f"{cat_col} Distribution")}
+                return {"chart": _pie_chart(vc, f"{best_cat} Distribution")}
         if num_cols:
             means = df[num_cols[:8]].mean().sort_values(ascending=False)
             if len(means) >= 2:
                 return {"chart": _pie_chart(means, "Numeric Breakdown")}
 
     # ── default bar ────────────────────────────────────────────────────
-    if cat_cols:
-        cat_col = target_cat or cat_cols[0]
-        if target_num or (num_cols and any(w in q for w in ["by","per","group","each","sum","total"])):
-            num_col = target_num or num_cols[0]
-            grouped = df.groupby(cat_col)[num_col].sum().sort_values(ascending=False).head(12)
-            return {"chart": _bar_chart(grouped, f"{num_col} by {cat_col}", ylabel=num_col)}
-        return {"chart": _bar_chart(df[cat_col].value_counts().head(12), f"Records by {cat_col}")}
+    if best_cat:
+        if best_num and any(w in q for w in ["by","per","group","each","sum","total","amount","revenue","value"]):
+            grouped = df.groupby(best_cat)[best_num].sum().sort_values(ascending=False).head(12)
+            return {"chart": _bar_chart(grouped, f"{best_num} by {best_cat}", ylabel=best_num)}
+        # Default: count per category (handles "how many X per stage", "bar by status", etc.)
+        return {"chart": _bar_chart(df[best_cat].value_counts().head(12), f"Records by {best_cat}")}
 
-    if num_cols:
-        num_col = target_num or num_cols[0]
-        return {"chart": _histogram_chart(df[num_col], f"Distribution of {num_col}")}
+    if best_num:
+        return {"chart": _histogram_chart(df[best_num], f"Distribution of {best_num}")}
 
     return {}
 
