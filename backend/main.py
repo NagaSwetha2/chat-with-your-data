@@ -21,6 +21,7 @@ import numpy as np
 
 def _to_python(obj):
     """Recursively convert numpy/pandas types to plain Python for JSON serialization."""
+    import math
     if isinstance(obj, dict):
         return {k: _to_python(v) for k, v in obj.items()}
     if isinstance(obj, list):
@@ -28,7 +29,10 @@ def _to_python(obj):
     if isinstance(obj, (np.integer,)):
         return int(obj)
     if isinstance(obj, (np.floating,)):
-        return float(obj)
+        v = float(obj)
+        return None if (math.isnan(v) or math.isinf(v)) else v
+    if isinstance(obj, float):
+        return None if (math.isnan(obj) or math.isinf(obj)) else obj
     if isinstance(obj, np.ndarray):
         return obj.tolist()
     if isinstance(obj, (np.bool_,)):

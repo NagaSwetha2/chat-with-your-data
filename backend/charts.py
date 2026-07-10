@@ -513,12 +513,13 @@ def generate_dynamic_chart(df: pd.DataFrame, question: str) -> dict:
                  if "date" in c.lower() or "time" in c.lower()
                  or pd.api.types.is_datetime64_any_dtype(df[c])]
 
-    # column mentioned in question
-    target_col = next(
-        (c for c in df.columns
-         if c.lower() in q or c.lower().replace(" ","") in q.replace(" ","")),
-        None
-    )
+    # find ALL columns mentioned in the question
+    q_nospace = q.replace(" ", "")
+    mentioned = [c for c in df.columns
+                 if c.lower() in q or c.lower().replace(" ","") in q_nospace]
+    target_col  = mentioned[0] if mentioned else None
+    target_cat  = next((c for c in mentioned if c in cat_cols), None)
+    target_num  = next((c for c in mentioned if c in num_cols), None)
 
     def clean_num(col):
         return pd.to_numeric(
@@ -647,38 +648,27 @@ def generate_dynamic_chart(df: pd.DataFrame, question: str) -> dict:
 
     # ── pie ────────────────────────────────────────────────────────────
     if chart_type == "pie":
-        cat_col = target_col if (target_col and target_col in cat_cols) else \
-                  (cat_cols[0] if cat_cols else None)
+        cat_col = target_cat or (cat_cols[0] if cat_cols else None)
         if cat_col:
-            # If question mentions revenue/amount, show sum per category not counts
-            revenue_kw = ["revenue","amount","value","sum","total","$","money","dollar","spend","cost","price"]
-            if num_cols and any(w in q for w in revenue_kw):
-                num_col = next((c for c in num_cols if any(k in c.lower() for k in ["amount","revenue","value","price","cost","spend"])), num_cols[0])
-                grouped = df.groupby(cat_col)[num_col].sum().sort_values(ascending=False)
-                if len(grouped) >= 2:
-                    return {"chart": _pie_chart(grouped, f"{num_col} by {cat_col}")}
             vc = df[cat_col].value_counts()
             if len(vc) >= 2:
-                return {"chart": _pie_chart(vc, f"Distribution of {cat_col}")}
+                return {"chart": _pie_chart(vc, f"{cat_col} Distribution")}
         if num_cols:
             means = df[num_cols[:8]].mean().sort_values(ascending=False)
             if len(means) >= 2:
                 return {"chart": _pie_chart(means, "Numeric Breakdown")}
 
     # ── default bar ────────────────────────────────────────────────────
-    # Prefer categorical breakdown (most useful for generic "bar graph" requests)
     if cat_cols:
-        cat_col = target_col if (target_col and target_col in cat_cols) else cat_cols[0]
-        if num_cols and any(w in q for w in ["by","per","group","each","amount","value","sum","total","revenue"]):
-            num_col = target_col if (target_col and target_col in num_cols) else num_cols[0]
-            if num_col == cat_col:
-                num_col = next((c for c in num_cols if c != cat_col), num_cols[0])
-            grouped = df.groupby(cat_col)[num_col].sum().sort_values(ascending=False).head(10)
+        cat_col = target_cat or cat_cols[0]
+        if target_num or (num_cols and any(w in q for w in ["by","per","group","each","sum","total"])):
+            num_col = target_num or num_cols[0]
+            grouped = df.groupby(cat_col)[num_col].sum().sort_values(ascending=False).head(12)
             return {"chart": _bar_chart(grouped, f"{num_col} by {cat_col}", ylabel=num_col)}
         return {"chart": _bar_chart(df[cat_col].value_counts().head(12), f"Records by {cat_col}")}
 
     if num_cols:
-        num_col = target_col if (target_col and target_col in num_cols) else num_cols[0]
+        num_col = target_num or num_cols[0]
         return {"chart": _histogram_chart(df[num_col], f"Distribution of {num_col}")}
 
     return {}
