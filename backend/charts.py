@@ -490,37 +490,55 @@ def _detect_chart_type(q: str) -> str:
 
 # ─────────────────── CSV chart (DataFrame path) ─────────────────────────
 
+def _col_relevance(df: pd.DataFrame, col: str, q_words: set) -> int:
+    """Score how relevant a column is to the question — purely from the data itself."""
+    score = 0
+    col_words = set(_re.split(r'[\s_\-]+', col.lower()))
+    # Column name matches question words
+    score += len(col_words & q_words) * 3
+    # Partial substring match (e.g. "stage" matches "stagename")
+    for w in q_words:
+        if len(w) >= 4 and w in col.lower():
+            score += 1
+    # Values in the column match question words (finds "proposal" inside Stage column)
+    if df[col].dtype == object:
+        sample = df[col].dropna().astype(str).str.lower().unique()[:30]
+        for val in sample:
+            val_words = set(_re.split(r'[\s_\-]+', val))
+            score += len(val_words & q_words) * 2
+    return score
+
+
 def generate_dynamic_chart(df: pd.DataFrame, question: str) -> dict:
     q = _normalize_q(question)
     chart_type = _detect_chart_type(q)
 
-    # Classify columns — be liberal: low-cardinality columns are categorical even if numeric
+    # Classify columns purely from data shape — no hardcoded names
     cat_cols  = [c for c in df.columns
-                 if df[c].dtype == object or
-                 (df[c].nunique() <= 30 and not pd.api.types.is_float_dtype(df[c])
-                  and "id" not in c.lower() and "date" not in c.lower())]
+                 if df[c].dtype == object or df[c].nunique() <= max(10, len(df) // 50)]
     num_cols  = [c for c in df.columns
                  if pd.api.types.is_numeric_dtype(df[c]) and c not in cat_cols]
     date_cols = [c for c in df.columns
-                 if "date" in c.lower() or "time" in c.lower()
-                 or pd.api.types.is_datetime64_any_dtype(df[c])]
+                 if pd.api.types.is_datetime64_any_dtype(df[c]) or
+                 (df[c].dtype == object and "date" in c.lower())]
 
-    # Find columns mentioned by name in the question
+    # Score every column by relevance to the question
+    q_words = set(_re.split(r'\W+', q)) - {"the","a","an","of","in","for","by","to","is","are","per","how","many","show","me","what","give","draw","chart","graph","plot","pie","bar","line"}
+    cat_scores = {c: _col_relevance(df, c, q_words) for c in cat_cols}
+    num_scores = {c: _col_relevance(df, c, q_words) for c in num_cols}
+
+    # Pick best columns — highest relevance score wins, no hardcoded fallback lists
+    best_cat = max(cat_scores, key=cat_scores.get) if cat_scores else None
+    best_num = max(num_scores, key=num_scores.get) if num_scores else None
+
+    # If a column name is literally in the question, that always wins
     q_nospace = q.replace(" ", "")
-    mentioned = [c for c in df.columns
-                 if c.lower() in q or c.lower().replace(" ","") in q_nospace]
-    target_cat = next((c for c in mentioned if c in cat_cols), None)
-    target_num = next((c for c in mentioned if c in num_cols), None)
-    target_col = target_cat or target_num or (mentioned[0] if mentioned else None)
-
-    # Best defaults when nothing is explicitly mentioned
-    _STAGE_LIKE = ["stage","status","category","type","priority","phase","tier","group","label","class"]
-    best_cat = target_cat or next(
-        (c for c in cat_cols if any(k in c.lower() for k in _STAGE_LIKE)), None
-    ) or (cat_cols[0] if cat_cols else None)
-    best_num = target_num or next(
-        (c for c in num_cols if any(k in c.lower() for k in ["amount","revenue","value","price","cost","score","count"])), None
-    ) or (num_cols[0] if num_cols else None)
+    for c in df.columns:
+        if c.lower() in q or c.lower().replace(" ","") in q_nospace:
+            if c in cat_cols:
+                best_cat = c
+            elif c in num_cols:
+                best_num = c
 
     def clean_num(col):
         return pd.to_numeric(
@@ -550,42 +568,26 @@ def generate_dynamic_chart(df: pd.DataFrame, question: str) -> dict:
 
     # ── waterfall ──────────────────────────────────────────────────────
     if chart_type == "waterfall":
-        if num_cols:
-            num_col = target_col if target_col in num_cols else num_cols[0]
-            if cat_cols:
-                cat_col = cat_cols[0]
-                grp = df.groupby(cat_col)[num_col].sum().head(10)
-                if len(grp) >= 2:
-                    # prepend a "Total" bar then negate the rest to show deductions
-                    labels = list(grp.index)
-                    vals = list(grp.values)
-                    return {"chart": _waterfall_chart(labels, vals,
-                                                     f"Waterfall — {num_col} by {cat_col}")}
+        if best_num and best_cat:
+            grp = df.groupby(best_cat)[best_num].sum().head(10)
+            if len(grp) >= 2:
+                return {"chart": _waterfall_chart(list(grp.index), list(grp.values),
+                                                 f"Waterfall — {best_num} by {best_cat}")}
         chart_type = "bar"
 
     # ── scatter / bubble ───────────────────────────────────────────────
     if chart_type in ("scatter", "bubble"):
-        # Parse "X vs Y" from question to honour specific column requests
         vs_m = _re.search(r'([\w\s]+?)\s+vs\.?\s+([\w\s]+?)(?:\s+(?:chart|plot|graph)|\s*$)', q)
-        asked_num, asked_cat = [], []
+        asked_num = []
         if vs_m:
             for part in [vs_m.group(1).strip(), vs_m.group(2).strip()]:
                 hit = next((c for c in df.columns
                             if c.lower() == part or c.lower().replace(" ","") == part.replace(" ","")), None)
-                if hit:
-                    (asked_num if hit in num_cols else asked_cat).append(hit)
-
-        # num vs categorical → violin is the right chart for this combo
-        if asked_num and asked_cat:
-            num_c = asked_num[0]
-            cat_c = asked_cat[0]
-            return {"chart": _violin_chart(df, cat_c, num_c, f"{num_c} by {cat_c}")}
-
+                if hit and hit in num_cols:
+                    asked_num.append(hit)
         if len(num_cols) >= 2:
-            x_col = (asked_num[0] if asked_num else
-                     (target_col if target_col in num_cols else num_cols[0]))
-            y_col = (asked_num[1] if len(asked_num) >= 2 else
-                     next((c for c in num_cols if c != x_col), num_cols[1]))
+            x_col = asked_num[0] if asked_num else best_num or num_cols[0]
+            y_col = asked_num[1] if len(asked_num) >= 2 else next((c for c in num_cols if c != x_col), num_cols[1])
             sx = clean_num(x_col).fillna(0)
             sy = clean_num(y_col).fillna(0)
             mask = sx.notna() & sy.notna()
@@ -594,58 +596,48 @@ def generate_dynamic_chart(df: pd.DataFrame, question: str) -> dict:
                 if sz_col:
                     sz = clean_num(sz_col).fillna(0)
                     return {"chart": _bubble_chart(sx[mask], sy[mask], sz[mask],
-                                                   f"Bubble — {x_col} / {y_col} / {sz_col}",
-                                                   x_col, y_col)}
-            return {"chart": _scatter_chart(sx[mask], sy[mask],
-                                            f"{x_col} vs {y_col}", x_col, y_col)}
+                                                   f"Bubble — {x_col} / {y_col} / {sz_col}", x_col, y_col)}
+            return {"chart": _scatter_chart(sx[mask], sy[mask], f"{x_col} vs {y_col}", x_col, y_col)}
 
     # ── radar ──────────────────────────────────────────────────────────
     if chart_type == "radar":
         if num_cols:
             means = df[num_cols[:8]].mean()
-            return {"chart": _radar_chart(list(means.index), list(means.values),
-                                          "Radar — Avg by Feature")}
+            return {"chart": _radar_chart(list(means.index), list(means.values), "Radar — Avg by Feature")}
 
     # ── violin ─────────────────────────────────────────────────────────
     if chart_type == "violin":
-        if cat_cols and num_cols:
-            cat_c = target_col if target_col in cat_cols else cat_cols[0]
-            num_c = next((c for c in num_cols if c != cat_c), num_cols[0])
-            return {"chart": _violin_chart(df, cat_c, num_c,
-                                           f"Violin — {num_c} by {cat_c}")}
+        if best_cat and best_num:
+            return {"chart": _violin_chart(df, best_cat, best_num, f"Violin — {best_num} by {best_cat}")}
 
     # ── funnel ─────────────────────────────────────────────────────────
     if chart_type == "funnel":
-        stage_col = next((c for c in cat_cols
-                          if any(w in c.lower() for w in ["stage","status","phase","step"])),
-                         cat_cols[0] if cat_cols else None)
-        if stage_col:
-            counts = df[stage_col].value_counts().head(8)
-            return {"chart": _funnel_chart(list(counts.index), list(counts.values),
-                                           f"Funnel — {stage_col}")}
+        if best_cat:
+            counts = df[best_cat].value_counts().head(8)
+            return {"chart": _funnel_chart(list(counts.index), list(counts.values), f"Funnel — {best_cat}")}
 
     # ── heatmap ────────────────────────────────────────────────────────
     if chart_type == "heatmap":
         if len(cat_cols) >= 2 and num_cols:
-            return {"chart": _heatmap_chart(df, cat_cols[0], cat_cols[1],
-                                            num_cols[0],
-                                            f"Heatmap — {num_cols[0]}")}
+            c1 = max(cat_scores, key=cat_scores.get) if cat_scores else cat_cols[0]
+            c2 = next((c for c in sorted(cat_cols, key=lambda x: cat_scores.get(x,0), reverse=True) if c != c1), cat_cols[-1])
+            return {"chart": _heatmap_chart(df, c1, c2, best_num or num_cols[0], f"Heatmap — {best_num or num_cols[0]}")}
 
     # ── histogram ──────────────────────────────────────────────────────
     if chart_type == "histogram":
-        num_c = target_col if target_col in num_cols else (num_cols[0] if num_cols else None)
-        if num_c:
-            return {"chart": _histogram_chart(df[num_c], f"Distribution of {num_c}")}
+        if best_num:
+            return {"chart": _histogram_chart(df[best_num], f"Distribution of {best_num}")}
 
     # ── area / line ────────────────────────────────────────────────────
-    if chart_type in ("area", "line") and date_cols:
-        date_col = target_col if target_col in date_cols else date_cols[0]
-        parsed = pd.to_datetime(df[date_col], errors="coerce").dropna()
-        monthly = parsed.dt.to_period("M").value_counts().sort_index()
-        if len(monthly) > 1:
-            fn = _area_chart if chart_type == "area" else _line_chart
-            return {"chart": fn([str(p) for p in monthly.index], list(monthly.values),
-                                f"Records Over Time ({date_col})", ylabel="Count")}
+    if chart_type in ("area", "line"):
+        date_col = next((c for c in date_cols), None)
+        if date_col:
+            parsed = pd.to_datetime(df[date_col], errors="coerce").dropna()
+            monthly = parsed.dt.to_period("M").value_counts().sort_index()
+            if len(monthly) > 1:
+                fn = _area_chart if chart_type == "area" else _line_chart
+                return {"chart": fn([str(p) for p in monthly.index], list(monthly.values),
+                                    f"Records Over Time ({date_col})", ylabel="Count")}
 
     # ── pie ────────────────────────────────────────────────────────────
     if chart_type == "pie":
