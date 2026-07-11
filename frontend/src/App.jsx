@@ -440,7 +440,6 @@ function App() {
   const [mlTab, setMlTab] = useState('risk')
   const [hypotheses, setHypotheses] = useState(null)
   const [eda, setEda] = useState(null)
-  const [edaTab, setEdaTab] = useState('overview')
   const [analysis, setAnalysis] = useState(null)
   const [analysisLoading, setAnalysisLoading] = useState(false)
   const [kpisLoading, setKpisLoading] = useState(false)
@@ -644,18 +643,6 @@ function App() {
       <header>
         <h1>Zarva</h1>
         <p>Upload any file — CSV, PDF, image — and ask questions about it.</p>
-        <div className="mode-toggle">
-          <button
-            className={mode === 'data' ? 'mode-btn active' : 'mode-btn'}
-            onClick={() => { setMode('data'); setMessages([]) }}>
-            Your Data
-          </button>
-          <button
-            className={mode === 'sf' ? 'mode-btn active' : 'mode-btn'}
-            onClick={() => { setMode('sf'); setMessages([]) }}>
-            Salesforce KB
-          </button>
-        </div>
       </header>
 
       <div className="layout">
@@ -929,8 +916,8 @@ function App() {
         <section className="eda-panel">
           <div className="eda-header">
             <div>
-              <h2 className="eda-title">Exploratory Data Analysis</h2>
-              <p className="eda-subtitle">Shape · Types · Distributions · Correlations · Insights</p>
+              <h2 className="eda-title">Data Overview</h2>
+              <p className="eda-subtitle">Shape · Column Types · Statistical Summary · Data Quality</p>
             </div>
             <div className="eda-shape-chips">
               <span className="eda-chip">{eda.shape?.rows?.toLocaleString()} rows</span>
@@ -941,15 +928,13 @@ function App() {
           </div>
 
           <div className="eda-tabs">
-            {[['overview','Overview'],['univariate','Univariate'],['bivariate','Bivariate'],['insights','EDA Insights']].map(([k,label]) => (
-              <button key={k} className={`eda-tab ${edaTab === k ? 'active' : ''}`} onClick={() => setEdaTab(k)}>{label}</button>
-            ))}
+            <button className="eda-tab active">Overview</button>
           </div>
 
           <div className="eda-body">
 
             {/* ── Overview ── */}
-            {edaTab === 'overview' && (
+            {(
               <div className="eda-overview">
 
                 {/* Shape cards */}
@@ -1065,83 +1050,6 @@ function App() {
               </div>
             )}
 
-            {/* ── Univariate ── */}
-            {edaTab === 'univariate' && (
-              <div>
-                <p className="eda-section-label" style={{marginBottom:16}}>Distribution + boxplot for numeric columns · value counts for categorical columns</p>
-                <div className="eda-chart-grid">
-                  {Object.entries(eda.univariate || {}).map(([col, info]) => (
-                    <div key={col} className="eda-chart-card">
-                      <div className="eda-chart-card-tag">{info.type === 'numeric' ? '🔢 Numeric' : '🔤 Categorical'}</div>
-                      <img src={`data:image/png;base64,${info.chart}`} alt={col} className="eda-chart-img" />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* ── Bivariate ── */}
-            {edaTab === 'bivariate' && (
-              <div>
-                {eda.bivariate?.correlation_heatmap && (
-                  <div className="eda-chart-wrap" style={{marginBottom:28}}>
-                    <h3 className="eda-section-label">Correlation Heatmap</h3>
-                    <p className="eda-hint">Green = positive correlation · Red = negative correlation · Values near ±1 are strong</p>
-                    <img src={`data:image/png;base64,${eda.bivariate.correlation_heatmap}`} alt="correlation" className="eda-chart" />
-                  </div>
-                )}
-
-                {(eda.bivariate?.scatter_plots || []).length > 0 && (
-                  <div style={{marginBottom:28}}>
-                    <h3 className="eda-section-label">Top Correlated Pairs — Scatter Plots</h3>
-                    <p className="eda-hint">Dashed line = linear trend · r = Pearson correlation coefficient</p>
-                    <div className="eda-chart-grid">
-                      {eda.bivariate.scatter_plots.map((s, i) => (
-                        <div key={i} className="eda-chart-card">
-                          <img src={`data:image/png;base64,${s.chart}`} alt={`${s.x} vs ${s.y}`} className="eda-chart-img" />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {(eda.bivariate?.cat_vs_num || []).length > 0 && (
-                  <div>
-                    <h3 className="eda-section-label">Categorical vs Numeric — Box Plots</h3>
-                    <p className="eda-hint">Distribution of numeric values grouped by category · Line = median</p>
-                    <div className="eda-chart-grid">
-                      {eda.bivariate.cat_vs_num.map((b, i) => (
-                        <div key={i} className="eda-chart-card">
-                          <img src={`data:image/png;base64,${b.chart}`} alt={`${b.x} vs ${b.y}`} className="eda-chart-img" />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {!eda.bivariate?.correlation_heatmap && !(eda.bivariate?.scatter_plots?.length) && (
-                  <p className="eda-empty">Need at least 2 numeric columns for bivariate analysis.</p>
-                )}
-              </div>
-            )}
-
-            {/* ── Insights ── */}
-            {edaTab === 'insights' && (
-              <div className="eda-insights-grid">
-                {(eda.insights || []).map((ins, i) => (
-                  <div key={i} className={`eda-insight-card sev-${ins.severity}`}>
-                    <div className="eda-insight-top">
-                      <span className={`eda-sev-badge sev-${ins.severity}`}>
-                        {ins.severity === 'critical' ? '⚠ Critical' : ins.severity === 'warning' ? '● Warning' : 'ℹ Info'}
-                      </span>
-                      <span className="eda-insight-category">{ins.category}</span>
-                    </div>
-                    <h3 className="eda-insight-title">{ins.title}</h3>
-                    <p className="eda-insight-narrative">{ins.narrative}</p>
-                  </div>
-                ))}
-              </div>
-            )}
 
           </div>
         </section>
@@ -1177,7 +1085,7 @@ function App() {
           </div>
 
           <div className="ml-tabs">
-            {[['risk','Deal Risk'],['win','Win Probability'],['anomaly','Anomalies'],['forecast','Forecast'],['action','Next Actions'],['pipeline','DL Pipeline']].map(([k,label]) => (
+            {[['risk','Deal Risk'],['win','Win Probability'],['anomaly','Anomalies']].map(([k,label]) => (
               <button key={k} className={`ml-tab ${mlTab === k ? 'active' : ''}`} onClick={() => setMlTab(k)}>{label}</button>
             ))}
           </div>
@@ -1235,179 +1143,6 @@ function App() {
               </div>
             )}
 
-            {mlTab === 'forecast' && (
-              <div className="ml-forecast">
-                {!ml.revenue_forecast || !ml.revenue_forecast.forecast ? <p className="ml-empty">No date/amount columns found for forecasting.</p> : (
-                  <>
-                    <div className="forecast-trend">
-                      <span className={`trend-arrow ${ml.revenue_forecast.trend}`}>{ml.revenue_forecast.trend === 'up' ? '↑' : '↓'}</span>
-                      <span className="trend-label">Monthly {ml.revenue_forecast.trend === 'up' ? 'growth' : 'decline'}: ${Math.abs(ml.revenue_forecast.monthly_growth || 0).toLocaleString()}</span>
-                      <span className="trend-r2">Model accuracy: {Math.round((ml.revenue_forecast.r_squared || 0) * 100)}%</span>
-                    </div>
-                    <div className="forecast-cards">
-                      {(ml.revenue_forecast.forecast || []).map((f, i) => (
-                        <div key={i} className="forecast-card">
-                          <span className="forecast-month">{f.month}</span>
-                          <span className="forecast-val">${f.predicted.toLocaleString()}</span>
-                          <span className="forecast-label">Predicted</span>
-                        </div>
-                      ))}
-                    </div>
-                  </>
-                )}
-              </div>
-            )}
-
-            {mlTab === 'action' && (
-              <div className="ml-cards">
-                {(ml.next_best_actions || []).length === 0 && <p className="ml-empty">No urgent actions needed right now.</p>}
-                {(ml.next_best_actions || []).map((a, i) => (
-                  <div key={i} className="ml-card action-card">
-                    <div className="ml-card-top">
-                      <span className="ml-record-name">{a.record}</span>
-                      <span className={`ml-badge ${a.urgency === 'High' ? 'badge-danger' : 'badge-warn'}`}>{a.urgency}</span>
-                    </div>
-                    <div className="action-text">{a.action}</div>
-                    <div className="action-reason">{a.reason}</div>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {mlTab === 'pipeline' && ml.ml_report && (
-              <div className="ml-pipeline">
-
-                {/* Outlier Treatment */}
-                <div className="pipeline-section">
-                  <h3 className="pipeline-section-title">Outlier Detection &amp; Treatment</h3>
-                  {ml.ml_report.outlier_treatment && (
-                    <>
-                      <div className="pipeline-row">
-                        <span className="pipeline-key">Method</span>
-                        <span className="pipeline-val">IsolationForest (detection) + IQR Winsorization (treatment)</span>
-                      </div>
-                      <div className="pipeline-row">
-                        <span className="pipeline-key">Outliers found</span>
-                        <span className="pipeline-val">{ml.ml_report.outlier_treatment.outliers_detected}</span>
-                      </div>
-                      <div className="pipeline-row">
-                        <span className="pipeline-key">Treatment</span>
-                        <span className="pipeline-val">{ml.ml_report.outlier_treatment.treatment}</span>
-                      </div>
-                      {ml.ml_report.outlier_treatment.columns_treated?.length > 0 ? (
-                        <div className="pipeline-row">
-                          <span className="pipeline-key">Columns capped</span>
-                          <div className="pipeline-chips">
-                            {ml.ml_report.outlier_treatment.columns_treated.map((c, i) => (
-                              <span key={i} className="pipeline-chip">{c.column} ({c.capped_rows} rows → {c.range})</span>
-                            ))}
-                          </div>
-                        </div>
-                      ) : (
-                        <div className="pipeline-row">
-                          <span className="pipeline-key">Result</span>
-                          <span className="pipeline-val pipeline-muted">No extreme outliers — all values within 1.5×IQR range. No treatment needed.</span>
-                        </div>
-                      )}
-                    </>
-                  )}
-                </div>
-
-                {/* Feature Engineering */}
-                <div className="pipeline-section">
-                  <h3 className="pipeline-section-title">Feature Engineering</h3>
-                  {ml.ml_report.feature_engineering && (
-                    <>
-                      <div className="pipeline-chips-wrap">
-                        {(ml.ml_report.feature_engineering.features_created || []).map((f, i) => (
-                          <span key={i} className="pipeline-chip green">{f}</span>
-                        ))}
-                      </div>
-                      <p className="pipeline-rationale">{ml.ml_report.feature_engineering.rationale}</p>
-                      <p className="pipeline-rationale muted">{ml.ml_report.feature_engineering.dropped_rationale}</p>
-                    </>
-                  )}
-                </div>
-
-                {/* Preprocessing Pipeline */}
-                <div className="pipeline-section">
-                  <h3 className="pipeline-section-title">Preprocessing Pipeline</h3>
-                  <div className="pipeline-steps">
-                    {(ml.ml_report.preprocessing_pipeline || []).map((step, i) => (
-                      <div key={i} className="pipeline-step">
-                        <span className="pipeline-step-num">{i + 1}</span>
-                        <span>{step}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Train / Test Split */}
-                <div className="pipeline-section">
-                  <h3 className="pipeline-section-title">Train / Test Split</h3>
-                  {ml.ml_report.train_test_split && (
-                    <>
-                      <div className="pipeline-row">
-                        <span className="pipeline-key">Strategy</span>
-                        <span className="pipeline-val">{ml.ml_report.train_test_split.strategy}</span>
-                      </div>
-                      {ml.ml_report.train_test_split.train_records != null && (
-                        <div className="pipeline-split-bar">
-                          <div className="split-train" style={{flex: ml.ml_report.train_test_split.train_records}}>
-                            Train — {ml.ml_report.train_test_split.train_records} records
-                          </div>
-                          <div className="split-test" style={{flex: ml.ml_report.train_test_split.test_records}}>
-                            Test — {ml.ml_report.train_test_split.test_records} records
-                          </div>
-                        </div>
-                      )}
-                    </>
-                  )}
-                </div>
-
-                {/* Hyperparameter Tuning */}
-                <div className="pipeline-section">
-                  <h3 className="pipeline-section-title">Hyperparameter Tuning</h3>
-                  {ml.ml_report.model && (
-                    <>
-                      <div className="pipeline-row">
-                        <span className="pipeline-key">Model</span>
-                        <span className="pipeline-val">{ml.ml_report.model.model}</span>
-                      </div>
-                      <div className="pipeline-row">
-                        <span className="pipeline-key">Tuning</span>
-                        <span className="pipeline-val">{ml.ml_report.model.hyperparameter_tuning}</span>
-                      </div>
-                      {ml.ml_report.model.fallback ? (
-                        <div className="pipeline-row">
-                          <span className="pipeline-key">Note</span>
-                          <span className="pipeline-val pipeline-muted">{ml.ml_report.model.fallback_reason}</span>
-                        </div>
-                      ) : (
-                        <>
-                          {ml.ml_report.model.best_params && (
-                            <div className="pipeline-row">
-                              <span className="pipeline-key">Best params</span>
-                              <div className="pipeline-chips">
-                                {Object.entries(ml.ml_report.model.best_params).map(([k, v], i) => (
-                                  <span key={i} className="pipeline-chip">{k}: {String(v)}</span>
-                                ))}
-                              </div>
-                            </div>
-                          )}
-                          <div className="pipeline-metrics">
-                            {ml.ml_report.model.train_accuracy != null && <div className="metric-card"><span className="metric-val">{(ml.ml_report.model.train_accuracy * 100).toFixed(1)}%</span><span className="metric-label">Train Accuracy</span></div>}
-                            {ml.ml_report.model.test_accuracy != null && <div className="metric-card accent"><span className="metric-val">{(ml.ml_report.model.test_accuracy * 100).toFixed(1)}%</span><span className="metric-label">Test Accuracy</span></div>}
-                            {ml.ml_report.model.auc_roc != null && <div className="metric-card"><span className="metric-val">{ml.ml_report.model.auc_roc}</span><span className="metric-label">AUC-ROC</span></div>}
-                          </div>
-                        </>
-                      )}
-                    </>
-                  )}
-                </div>
-
-              </div>
-            )}
           </div>
         </section>
       )}
